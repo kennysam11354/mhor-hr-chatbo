@@ -98,11 +98,32 @@ export default function Home() {
       {/* Main Chat Container - 반응형 설계 */}
       <div className="flex-1 flex flex-col px-2 py-2 sm:px-6 sm:py-4 max-w-4xl mx-auto w-full">
         
-        {/* Chat Messages Area - 스마트폰에 최적화된 높이 */}
+        {/* Chat Messages Area - 스마트폰에 최적화된 높이 with background */}
         <div 
-          className="flex-1 overflow-y-auto border rounded-lg p-3 sm:p-4 mb-3 sm:mb-4 space-y-2 bg-gray-50 min-h-[60vh] max-h-[70vh]" 
+          className="flex-1 overflow-y-auto border rounded-lg p-3 sm:p-4 mb-3 sm:mb-4 space-y-2 min-h-[60vh] max-h-[70vh] relative bg-gray-50"
           ref={chatContainerRef}
         >
+          {/* Background image positioned at center 75% */}
+          <div 
+            className="absolute inset-0 rounded-lg pointer-events-none"
+            style={{
+              top: '12.5%',
+              left: '12.5%',
+              width: '75%',
+              height: '75%',
+              backgroundImage: 'url(/back.png)',
+              backgroundSize: 'contain',
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat',
+              opacity: 0.7
+            }}
+          ></div>
+          
+          {/* Semi-transparent overlay for better readability */}
+          <div className="absolute inset-0 bg-white bg-opacity-30 rounded-lg pointer-events-none"></div>
+          
+          {/* Content wrapper with relative positioning */}
+          <div className="relative z-10 h-full">
           {chat.length === 0 && (
             <div className="flex flex-col items-center justify-center h-full text-gray-500">
               <div className="text-4xl sm:text-6xl mb-4">💬</div>
@@ -147,7 +168,8 @@ export default function Home() {
               </div>
             </div>
           ))}
-        </div>
+          </div> {/* Content wrapper closing */}
+        </div> {/* Chat Messages Area closing */}
 
         {/* Loading indicator */}
         {isLoading && (

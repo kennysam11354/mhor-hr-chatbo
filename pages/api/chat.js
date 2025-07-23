@@ -1,181 +1,188 @@
-// pages/api/chat.js
-import OpenAI from "openai";
-import fs from "fs";
-import path from "path";
-import * as franc from "franc";
-import langs from "langs";
+import { useState, useRef, useEffect } from "react";
 
-// 1. API 키 설정
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+export default function Home() {
+  const [input, setInput] = useState("");
+  const [chat, setChat] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [showClearButton, setShowClearButton] = useState(false);
+  const chatContainerRef = useRef(null);
 
-// 2. 유사도 계산 함수 (코사인 유사도)
-function cosineSimilarity(vec1, vec2) {
-  const dot = vec1.reduce((sum, v, i) => sum + v * vec2[i], 0);
-  const norm1 = Math.sqrt(vec1.reduce((sum, v) => sum + v * v, 0));
-  const norm2 = Math.sqrt(vec2.reduce((sum, v) => sum + v * v, 0));
-  return norm1 && norm2 ? dot / (norm1 * norm2) : 0;
-}
-
-// 3. API 라우트
-export default async function handler(req, res) {
-  if (req.method !== "POST") {
-    return res.status(405).json({ error: "Method not allowed" });
-  }
-
-  try {
-    const { messages } = req.body;
-    const userQuestion = messages[messages.length - 1].content;
-
-    // 4. 질문 임베딩 생성
-    const embeddingRes = await openai.embeddings.create({
-      model: "text-embedding-3-small",
-      input: userQuestion,
-    });
-    const questionVector = embeddingRes.data[0].embedding;
-
-    // 5. guide_vectors.json 로드
-    const guidePath = path.join(process.cwd(), "public", "guide_vectors.json");
-    const raw = fs.readFileSync(guidePath, "utf8");
-    const chunks = JSON.parse(raw);
-
-    // 6. 유사도 계산 후 상위 문단 추출 (개선된 버전)
-    const scored = chunks.map((chunk) => ({
-      content: chunk.content,
-      similarity: cosineSimilarity(questionVector, chunk.embedding),
-    }));
-
-    // 유사도 임계값 설정 (0.3 이상인 것만 사용)
-    const relevantChunks = scored
-      .filter(chunk => chunk.similarity > 0.3)
-      .sort((a, b) => b.similarity - a.similarity)
-      .slice(0, 3);
-
-    // 관련 컨텍스트가 있는지 확인
-    const hasRelevantContext = relevantChunks.length > 0;
-
-    // 사용자 질문 언어 감지 (기본 언어: 영어)
-    function detectUserLanguage(text) {
-      // 텍스트가 비어있거나 너무 짧으면 기본 언어(영어) 반환
-      if (!text || text.trim().length < 2) {
-        return "English";
-      }
-      
-      // 한국어 감지 (한글 문자 포함)
-      if (/[가-힣]/.test(text)) {
-        return "Korean";
-      }
-      
-      // 스페인어 감지 (특수 문자 및 패턴)
-      if (/[ñáéíóúü¿¡]/i.test(text) || /\b(el|la|los|las|de|del|en|con|por|para|que|es|son|está|están|tiene|tienen|puedo|puede|ayudar|gracias|hola|buenos|días|noches)\b/i.test(text)) {
-        return "Spanish";
-      }
-      
-      // 프랑스어 감지
-      if (/[àâäçéèêëïîôùûüÿæœ]/i.test(text) || /\b(le|la|les|de|du|des|en|avec|pour|que|est|sont|avoir|être|bonjour|merci|salut)\b/i.test(text)) {
-        return "French";
-      }
-      
-      // 독일어 감지
-      if (/[äöüß]/i.test(text) || /\b(der|die|das|den|dem|des|ein|eine|einen|einem|einer|eines|ist|sind|haben|sein|und|oder|aber|guten|tag|danke)\b/i.test(text)) {
-        return "German";
-      }
-      
-      // 일본어 감지 (히라가나, 카타카나, 한자)
-      if (/[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]/.test(text)) {
-        return "Japanese";
-      }
-      
-      // 중국어 감지 (간체/번체 중국어)
-      if (/[\u4E00-\u9FFF]/.test(text) && !/[\u3040-\u309F\u30A0-\u30FF]/.test(text)) {
-        return "Chinese";
-      }
-      
-      // franc 라이브러리를 보조적으로 사용
+  // 페이지 로드시 저장된 대화 불러오기
+  useEffect(() => {
+    const savedChat = localStorage.getItem('mhor-chat-history');
+    if (savedChat) {
       try {
-        const detectedLangCode = franc.franc(text, { minLength: 3 });
-        const detectedLang = langs.where("3", detectedLangCode);
-        
-        // franc 결과가 있고 신뢰할 만한 언어라면 사용
-        if (detectedLang && ["Spanish", "French", "German", "Italian", "Portuguese", "Dutch", "Russian"].includes(detectedLang.name)) {
-          return detectedLang.name;
-        }
+        const parsedChat = JSON.parse(savedChat);
+        setChat(parsedChat);
+        setShowClearButton(parsedChat.length > 0);
       } catch (error) {
-        console.log("Franc detection error:", error);
+        console.error('대화 불러오기 실패:', error);
+        localStorage.removeItem('mhor-chat-history');
       }
-      
-      // 모든 경우에 해당하지 않으면 기본 언어인 영어 반환
-      return "English";
     }
-    
-    const userLanguage = detectUserLanguage(userQuestion);
+  }, []);
 
-    // 컨텍스트 구성 시 언어 정보 포함
-    const topChunks = scored
-      .sort((a, b) => b.similarity - a.similarity)
-      .slice(0, 3)
-      .map((c, i) => `Reference ${i + 1}:
-${c.content}`)
-      .join("\n\n");
+  // 대화가 변경될 때마다 localStorage에 저장
+  useEffect(() => {
+    if (chat.length > 0) {
+      localStorage.setItem('mhor-chat-history', JSON.stringify(chat));
+      setShowClearButton(true);
+    } else {
+      setShowClearButton(false);
+    }
+  }, [chat]);
 
-    // 향상된 시스템 프롬프트
-    const systemPrompt = `You are MHOR HR Assistant, an empathetic HR chatbot and counselor for Mt. Hood Oregon Resort employees.
-
-ROLE: Provide HR guidance and emotional support using company handbook policies.
-
-RESPOND IN: ${userLanguage}
-
-CORE FUNCTIONS:
-1. HR Policy Information (handbook, benefits, payroll)
-2. Employee Support Counseling (work stress, health issues, personal concerns)
-3. Payroll Analysis & HR Reporting
-
-COUNSELING APPROACH:
-- Acknowledge employee concerns with empathy
-- Connect issues to relevant HR policies/benefits
-- Provide actionable solutions from company resources
-- Direct to HR office for complex personal matters
-
-RESPONSE EXAMPLES:
-
-User: "I'm sick with a cold"
-Response: "I understand being sick is difficult. According to our sick leave policy, you can [specific policy details]. Here's what you need to do: [steps]. Your health benefits cover [coverage details]."
-
-User: "Work is too stressful" 
-Response: "I hear that work has been overwhelming for you. Our employee handbook offers several resources: [vacation policy, employee assistance programs, workload management]. Let me guide you through your options..."
-
-User: "Financial problems"
-Response: "Financial stress can be very challenging. Let me help you understand your available benefits: [payroll information, retirement plans, emergency assistance programs]."
-
-PAYROLL GUIDANCE:
-- Explain: Gross Pay = Base Pay + Overtime (1.5x) + Holiday Pay (1.5x)
-- Guide to ProLiant (readypayonline.com) for reports
-
-REFERENCE MATERIALS:
-${topChunks}
-
-BOUNDARIES:
-- Use ONLY Mt. Hood Oregon Resort policies
-- For complex issues: "This sounds challenging. For personalized support, please contact Ann Angnos (HR Office) for a confidential consultation."
-- Maintain professional empathy
-- No medical/legal advice - only HR policy guidance
-
-FORMAT: Empathy → Policy Reference → Action Steps → Additional Resources`;
-    const response = await openai.chat.completions.create({
-      model: "gpt-4o",
-      messages: [
-        { role: "system", content: systemPrompt },
-        ...messages,
-      ],
-      temperature: 0.7,  // 0.3에서 0.7로 증가 (더 창의적이고 자연스러운 번역)
-      max_tokens: 1000,  // 충분한 응답 길이 보장
-      top_p: 0.9,       // 더 다양한 표현 허용
+  useEffect(() => {
+    chatContainerRef.current?.scrollTo({
+      top: chatContainerRef.current.scrollHeight,
+      behavior: "smooth",
     });
+  }, [chat]);
 
-    res.status(200).json(response);
-  } catch (error) {
-    console.error("Error:", error);
-    res.status(500).json({ error: "Internal Server Error" });
-  }
+  // 대화 삭제 함수
+  const clearChat = () => {
+    if (window.confirm('Are you sure you want to clear all chat history?')) {
+      setChat([]);
+      localStorage.removeItem('mhor-chat-history');
+      setShowClearButton(false);
+    }
+  };
+
+  const handleSend = async () => {
+    if (!input.trim() || isLoading) return;
+    setIsLoading(true);
+
+    const updatedChat = [...chat, { role: "user", content: input }];
+    setChat(updatedChat);
+
+    try {
+      const res = await fetch('/api/chat', {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ messages: updatedChat }),
+      });
+
+      const data = await res.json();
+      setChat([...updatedChat, data.choices[0].message]);
+    } catch (err) {
+      setChat([...updatedChat, { role: "assistant", content: "⚠️ An error occurred." }]);
+    }
+
+    setInput("");
+    setIsLoading(false);
+  };
+
+  return (
+    <div className="min-h-screen bg-gray-100 flex flex-col">
+      {/* Header - 고정된 헤더 with Clear Button */}
+      <div className="bg-white shadow-sm border-b px-4 py-3 sm:px-6">
+        <div className="flex items-center justify-between">
+          <h1 className="text-lg sm:text-2xl font-bold text-blue-700">
+            📘 MHOR HR ChatBot
+          </h1>
+          {showClearButton && (
+            <button
+              onClick={clearChat}
+              className="text-xs sm:text-sm bg-red-500 hover:bg-red-600 text-white px-2 py-1 sm:px-3 sm:py-1 rounded-md transition-colors"
+              title="Clear chat history"
+            >
+              <span className="hidden sm:inline">🗑️ Clear Chat</span>
+              <span className="sm:hidden">🗑️</span>
+            </button>
+          )}
+        </div>
+      </div>
+
+      {/* Main Chat Container - 반응형 설계 */}
+      <div className="flex-1 flex flex-col px-2 py-2 sm:px-6 sm:py-4 max-w-4xl mx-auto w-full">
+        
+        {/* Chat Messages Area - 스마트폰에 최적화된 높이 */}
+        <div 
+          className="flex-1 overflow-y-auto border rounded-lg p-3 sm:p-4 mb-3 sm:mb-4 space-y-2 bg-gray-50 min-h-[60vh] max-h-[70vh]" 
+          ref={chatContainerRef}
+        >
+          {chat.length === 0 && (
+            <div className="flex flex-col items-center justify-center h-full text-gray-500">
+              <div className="text-4xl sm:text-6xl mb-4">💬</div>
+              <p className="text-sm sm:text-base text-center px-4">
+                Welcome to MHOR HR Assistant!<br />
+                Ask me anything about HR policies, benefits, or workplace support.
+              </p>
+              <p className="text-xs sm:text-sm text-center px-4 mt-2 text-gray-400">
+                💾 Your conversations will be saved automatically
+              </p>
+            </div>
+          )}
+          
+          {chat.map((msg, i) => (
+            <div
+              key={i}
+              className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"} mb-2`}
+            >
+              <div
+                className={`p-3 rounded-lg max-w-[85%] sm:max-w-[75%] break-words ${
+                  msg.role === "user"
+                    ? "bg-blue-500 text-white rounded-br-sm"
+                    : "bg-white border shadow-sm rounded-bl-sm"
+                }`}
+              >
+                <div className={`text-xs opacity-70 mb-1 ${msg.role === "user" ? "text-blue-100" : "text-gray-500"}`}>
+                  {msg.role === "user" ? "You" : "HR Assistant"}
+                </div>
+                <div className="text-sm sm:text-base leading-relaxed whitespace-pre-wrap">
+                  {msg.content}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Loading indicator */}
+        {isLoading && (
+          <div className="flex items-center justify-center py-2 mb-2">
+            <div className="flex items-center space-x-2 text-gray-500">
+              <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-blue-500"></div>
+              <span className="text-sm">HR Assistant is typing...</span>
+            </div>
+          </div>
+        )}
+
+        {/* Input Area - 스마트폰에 최적화 */}
+        <div className="bg-white rounded-lg border shadow-sm p-3 sm:p-4">
+          <div className="flex gap-2 sm:gap-3">
+            <input
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              onKeyDown={(e) => e.key === "Enter" && !e.shiftKey && handleSend()}
+              placeholder="Type your HR question here..."
+              className="flex-1 p-3 sm:p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent text-sm sm:text-base resize-none"
+              disabled={isLoading}
+            />
+            <button
+              onClick={handleSend}
+              disabled={isLoading || !input.trim()}
+              className={`px-4 sm:px-6 py-3 rounded-lg font-medium text-sm sm:text-base transition-colors ${
+                isLoading || !input.trim()
+                  ? "bg-gray-300 text-gray-500 cursor-not-allowed" 
+                  : "bg-blue-500 hover:bg-blue-600 text-white shadow-sm hover:shadow-md"
+              }`}
+            >
+              <span className="hidden sm:inline">
+                {isLoading ? "Sending..." : "Send"}
+              </span>
+              <span className="sm:hidden">
+                {isLoading ? "..." : "→"}
+              </span>
+            </button>
+          </div>
+          
+          {/* Helper text - 저장 상태 표시 추가 */}
+          <div className="hidden sm:block mt-2 text-xs text-gray-500 text-center">
+            Press Enter to send • Ask about policies, benefits, payroll, or workplace support
+            {chat.length > 0 && <span className="ml-2">💾 Chat history saved automatically</span>}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
