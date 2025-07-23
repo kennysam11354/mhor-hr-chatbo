@@ -1,0 +1,102 @@
+// pages/index.js
+import { useState, useEffect, useRef } from "react";
+
+export default function Home() {
+  const [input, setInput] = useState("");
+  const [chat, setChat] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const bottomRef = useRef(null);
+
+  const handleSend = async () => {
+    if (!input.trim()) return;
+
+    const updatedChat = [...chat, { role: "user", content: input }];
+    setChat(updatedChat);
+    setInput("");
+    setLoading(true);
+
+    const res = await fetch("/api/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ messages: updatedChat }),
+    });
+
+    const data = await res.json();
+    const botReply = data.choices?.[0]?.message || { role: "assistant", content: "오류가 발생했습니다." };
+    setChat([...updatedChat, botReply]);
+    setLoading(false);
+  };
+
+  // 자동 스크롤
+  useEffect(() => {
+    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [chat]);
+
+  return (
+    <div style={{ padding: "2rem", fontFamily: "Arial", maxWidth: "800px", margin: "auto" }}>
+      <h1 style={{ fontSize: "1.8rem", marginBottom: "1rem" }}>📘 HR GuideBot</h1>
+      <div style={{
+        minHeight: "300px",
+        maxHeight: "500px",
+        overflowY: "auto",
+        border: "1px solid #ccc",
+        padding: "1rem",
+        borderRadius: "10px",
+        marginBottom: "1rem",
+        backgroundColor: "#f9f9f9"
+      }}>
+        {chat.map((msg, i) => (
+          <div key={i} style={{
+            textAlign: msg.role === "user" ? "right" : "left",
+            margin: "0.5rem 0"
+          }}>
+            <div style={{
+              display: "inline-block",
+              padding: "10px 15px",
+              borderRadius: "15px",
+              backgroundColor: msg.role === "user" ? "#DCF8C6" : "#FFF",
+              border: "1px solid #ccc",
+              maxWidth: "70%",
+              wordWrap: "break-word"
+            }}>
+              <strong>{msg.role === "user" ? "You" : "Bot"}:</strong> {msg.content}
+            </div>
+          </div>
+        ))}
+        {loading && (
+          <div style={{ textAlign: "left", marginTop: "0.5rem" }}>
+            <em>Bot is typing...</em>
+          </div>
+        )}
+        <div ref={bottomRef}></div>
+      </div>
+      <div>
+        <input
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          placeholder="질문을 입력하세요"
+          style={{
+            width: "70%",
+            padding: "10px",
+            border: "1px solid #ccc",
+            borderRadius: "10px"
+          }}
+        />
+        <button
+          onClick={handleSend}
+          style={{
+            marginLeft: "10px",
+            padding: "10px 20px",
+            backgroundColor: "#0070f3",
+            color: "#fff",
+            border: "none",
+            borderRadius: "10px",
+            cursor: "pointer"
+          }}
+        >
+          전송
+        </button>
+      </div>
+    </div>
+  );
+}

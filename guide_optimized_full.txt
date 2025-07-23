@@ -1,0 +1,666 @@
+EMPLOYEE
+HANDBOOK
+68010 East Fairway Avenue I Welches, OR 97067-9706
+Revision Date 11.30.2024
+Table Of Contents
+[Mission & Vision Statement](#mission-and-vision-statement)
+[Welcome](#welcome)
+[History Of The Resort](#history-of-the-resort)
+**Employment At-Will**	4
+[Employment Policies And Procedures](#employment-policies-and-procedures)
+**Equal Opportunity and Commitment to Diversity** 	5
+**Americans with Disabilities Act (ADA) and Reasonable Accommodation**	5
+Non-Discrimination	5
+**Complaint Procedure**	5
+[Alternative Remedies](#alternative-remedies)
+[Retaliation](#retaliation)
+[Objective](#objective)
+Pre-Employment Inquiries	6
+[Employment Eligibility](#employment-eligibility)
+[Background Screening Policy](#background-screening-policy)
+[Introductory Period](#introductory-period)
+[Personnel Records](#personnel-records)
+[Job Duties](#job-duties)
+[Performance Evaluation](#performance-evaluation)
+[Promotion](#promotion)
+[Employment Outside The Company](#employment-outside-the-company)
+[Voluntary And Involuntary Termination Of Employment](#voluntary-and-involuntary-termination-of-employment)
+[Exit Interviews](#exit-interviews)
+[Reference Check](#reference-check)
+[Employee Code Of Conduct](#employee-code-of-conduct)
+**Prohibited Conduct** Under this Policy	8
+**Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment.	8
+Sexual **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment.	9
+On-Duty/Off-Duty Conduct	9
+**Prohibited Conduct**	9
+[Corrective Training Action](#corrective-training-action)
+**Confidentiality**	10
+[Relationships](#relationships)
+[Disclosure](#disclosure)
+[Failure To Comply](#failure-to-comply)
+[Personal Relationship Conduct](#personal-relationship-conduct)
+[Dress Code And Grooming Standards](#dress-code-and-grooming-standards)
+[General Policy](#general-policy)
+[Uniformed Employees](#uniformed-employees)
+Non-Uniformed Employees	12
+[Employment Classification](#employment-classification)
+[Exempt Employee](#exempt-employee)
+Non-Exempt Employee	13
+Regular, Full-Time	13
+Regular, Part-Time	13
+[Seasonal Employee](#seasonal-employee)
+On-Call Employee	13
+[Employee Schedules And Timekeeping Policy](#employee-schedules-and-timekeeping-policy)
+[Schedules And Breaks](#schedules-and-breaks)
+[Meal And Rest Breaks](#meal-and-rest-breaks)
+[Lactation Break](#lactation-break)
+[Exchanging Work Schedules](#exchanging-work-schedules)
+Clocking-Ln/Out Policy	14
+Overtime/Non-Exempt Employees	14
+[Workweek](#workweek)
+[Attendance Policy And Compensation](#attendance-policy-and-compensation)
+Calling-In Procedure	14
+[Tardiness](#tardiness)
+No-Call, No-Show	15
+[Payment Of Wages](#payment-of-wages)
+[Payroll Deductions](#payroll-deductions)
+[Employee Benefits And Leave Policies](#employee-benefits-and-leave-policies)
+[Holidays](#holidays)
+[Vacation Leave](#vacation-leave)
+[Sick Leave](#sick-leave)
+[Personal Leaves Of Absence](#personal-leaves-of-absence)
+[Bereavement Leave](#bereavement-leave)
+[Immediate Family Member](#immediate-family-member)
+Family Medical Leave Act (Fmla)	18
+[Eligibility](#eligibility)
+[Job Protection](#job-protection)
+[Insurance](#insurance)
+[How To Apply](#how-to-apply)
+[Returning To Work](#returning-to-work)
+[Substitution Of Paid Leave](#substitution-of-paid-leave)
+[Intermittent Leave](#intermittent-leave)
+[Consequences Of Failing To Return From Leave](#consequences-of-failing-to-return-from-leave)
+Pregnancy-Related Absences	19
+Paid Leave Oregon (Plo)	20
+[Eligibility](#eligibility)
+[Leave Length](#leave-length)
+[Job Protection](#job-protection)
+[Return To Your Job](#return-to-your-job)
+[Health Benefits](#health-benefits)
+[Notice](#notice)
+How To I Apply For Paid Leave Oregon?	20
+[Jury Duty](#jury-duty)
+Workers' Compensation Benefit	21
+[Insurance Benefits](#insurance-benefits)
+[Return To Work](#return-to-work)
+[Unable To Return To Work](#unable-to-return-to-work)
+[Consolidate Omnibus Budget Reconciliation Act Or Cobra](#consolidate-omnibus-budget-reconciliation-act-or-cobra)
+[Veterans Day](#veterans-day)
+[Oregonsaves](#oregonsaves)
+[Flexible Spending Plan](#flexible-spending-plan)
+[Employee Privileges](#employee-privileges)
+[Restaurants](#restaurants)
+[Lounges](#lounges)
+Golf/Croquet	23
+[Gift Shop](#gift-shop)
+[Restriction](#restriction)
+[Lodging](#lodging)
+[Rivermark Credit Union](#rivermark-credit-union)
+[Exchange Letter](#exchange-letter)
+[General Rules](#general-rules)
+[Personal Packages](#personal-packages)
+[Lost And Found Policy](#lost-and-found-policy)
+[Guest Relations And Courtesy Policy](#guest-relations-and-courtesy-policy)
+Guest And Resort **Confidentiality**	24
+[Resort Property](#resort-property)
+[Employee Property](#employee-property)
+[Visitors](#visitors)
+[Security](#security)
+Solicitation And/Or Distribution Of Literature	25
+[Employee Parking](#employee-parking)
+[Communications](#communications)
+[Cellphone And Pda Communication](#cellphone-and-pda-communication)
+Company-Provided Cellphones And Pdas	25
+[Safety Issues For Cellphone And Pda Use](#safety-issues-for-cellphone-and-pda-use)
+[Video Or Audio Recording Devices](#video-or-audio-recording-devices)
+[Special Responsibilities For Managerial Staff](#special-responsibilities-for-managerial-staff)
+[Consequences For Violators](#consequences-for-violators)
+Use Of Computers, E-Mail And Instant Messaging	26
+Use Restricted To Approved E-Mail Accounts	26
+[Content](#content)
+[Software And Licenses](#software-and-licenses)
+[Internet Usage](#internet-usage)
+[Housekeeping](#housekeeping)
+[Human Trafficking Policy](#human-trafficking-policy)
+[Workplace And Employee Safety Policy](#workplace-and-employee-safety-policy)
+[Fire Safety Policy](#fire-safety-policy)
+[Accident Prevention](#accident-prevention)
+[Accident Reporting](#accident-reporting)
+[Incident Reports](#incident-reports)
+[Conclusion](#conclusion)
+**Confidentiality** Agreement	31
+[Acknowledgement And Agreement](#acknowledgement-and-agreement)
+Vision & Mission Statement
+It Is Our Vision And Mission To Encourage A Positive Motivating Resort Atmosphere Where All Employees Share In The Enthusiasm To Provide Excellence In A Warm And Welcome Environment That Benefits All Guests, Employees And Its Owners For A Successful Future.
+WELCOME!
+Welcome To Mt. Hood Oregon Resort! We Are Delighted That You Have Chosen To Join Our Organization And Hope That You Will Enjoy A Long And Successful Career With Us. As You Become Familiar With Our Culture And Mission, We Hope You Will Take Advantage Of Opportunities To Enhance Your Career And Further Mt. Hood Oregon Resort'S Goals.
+You Are Joining An Organization That Has A Reputation For Outstanding Leadership, Innovation, And Expertise. Our Employees Use Their Creativity And Talent To Invent New Solutions, Meet New Demands, And Offer The Most Effective Services/Products In The Industry. With Your Active Involvement, Creativity, And Support, Mt. Hood Oregon Resort Will Continue To Achieve Its Goals. We Sincerely Hope You Will Take Pride In Being An Important Part Of Mt. Hood Oregon Resort'S Success.
+Please Take Time To Review The Policies Contained In This Handbook. If You Have Questions, Feel Free To Ask Your Supervisor Or To Contact The Human Resources Department.
+History Of The Resort
+The First Resort - "Welches”
+In 1882, Samuel Welch And His Son Billy Purchased 320 Acres Along The Salmon River, Where The Resort Now Lies. Nearby, Native Americans From Many Tribes Picked Huckleberries And Hunted Deer And Elk During The Summers. The Welches Continued To Acquire Land In The Area Until They Owned Roughly 1,000 Acres. In 1893 Father And Son Began The First Resort, Which Was A Campground For Travelers And Vacationers. In 1898 Samuel Died And Billy Inherited The Entire Property.
+In 1902 Billy Leased A Parcel Of Land To Two Businessmen Who Built A Two-Story Hotel. This Building, Known Today As "Old Welches Inn Bed & Breakfast/' Still Resembles How It Looked Then And Can Be Seen Across Welches Road From The Resort'S Golf Course
+In 1909, The Two Businessmen Sold The Hotel To Billy, Who Ran It Until 1917. His Establishments Hospitality Became Well Known And People Spent Summer Vacations With Billy And His Wife, Jenny. Soon A Small Community Sprang Up Around The Hotel And Was Called, Appropriately, Welches.
+In 1928, Two Golfing Enthusiasts - Ralph Shattuck And George Waale - Leased Billy'S Hayfield And Built A Nine-Hole Golf Course, Making Welches The First Golf Resort In Oregon. It Was The Mt. Hood Golf Course And Allowed Golfers To Play In An Unusually Picturesque Natural Atmosphere. In 1939 The Golf Course Reverted To Billy, And He Continued To Operate The Resort Until His Death In 1942.
+Bowman’S
+Billy'S Wife Sold The Property, And It Was Run By Several Parties Until 1948 When Eugene Bowman Acquired It. Eugene And His Wife Peggy Owned Bowman’S For The Next 30 Years, Adding An Additional Nine Holes Of Golf, A Pool, A Sauna, Condominiums, And More Guest Suites. Bowman'S Resort Was Situated On The East Side Of The Present-Day Resort. The Tradition Of Hospitality Begun By The Welches Was Continued On By The Bowmans And Enticed Not Only Golfers But Also Food Lovers As Well.
+Rippling River Resort
+In 1973 American Guaranty Financial Corporation Purchased Land Across Welches Road From Bowmanzs And Built A Lodge, A Conference Facility, A Restaurant, More Rental Units And A Third Nine-Hole Golf Course. In 1979 It Purchased Bowman'S Resort, Merging The Two Properties And Naming It Rippling River Resort.
+The Resort At The Mountain
+Ed And Janice Hopper Bought The Resort In 1989 And Transformed It Into The Resort At The Mountain. With Their Remodeling Efforts Came The Scottish Theme And Tradition. The Resort Was Sold In December 2007, To Oly- Ida Ratm Llc. Y Hospitality Ratm Llc Took Ownership In July 2015. It Became The First Bw Premier Collection Property In North America In October 2015. New Ownership, .
+Mount Hood Oregon Resort
+Under Stanford Oregon Hotel Llc, The New Name Mt. Hood Oregon Resort Was Made Official In June 2018.
+**Employment At-Will**
+Employment At Mt. Hood Oregon Resort Is On An At-Will Basis Unless Otherwise Stated In A Written Individual Employment Agreement Signed By The President Of The Company.
+This Means That Either The Employee Or The Company May Terminate The Employment Relationship At Any Time, For Any Reason, With Or Without Notice.
+Nothing In This Employee Handbook Is Intended To Or Creates An Employment Agreement, Express Or Implied. Nothing Contained In This Or Any Other Document Provided To The Employee Is Intended To Be, Nor Should It Be, Construed As A Contract That Employment Or Any Benefit Will Be Continued For Any Period Of Time. In Addition, No Company Representative Is Authorized To Modify This Policy For Any Employee Or To Enter Into Any Agreement, Oral Or Written, That Changes The At-Will Relationship.
+Any Salary Figures Provided To An Employee In Annual Or Monthly Terms Are Stated For The Sake Of Convenience Or To Facilitate Comparisons And Are Not Intended And Do Not Create An Employment Contract For Any Specific Period Of Time.
+Nothing In This Statement Is Intended To Interfere With, Restrain, Or Prevent Concerted Activity As Protected By The National Labor Relations Act. Such Activity Includes Employee Communications Regarding Wages, Hours, Or Other Terms Or Conditions Of Employment. Mt. Hood Oregon Resort Employees Have The Right To Engage In Or Refrain From Such Activities.
+EMPLOYMENT POLICIES AND PROCEDURES
+**Equal Opportunity and Commitment to Diversity**
+Mt. Hood Oregon Resort Provides Equal Employment Opportunities To All Employees And Applicants For Employment Without Regard To Race, Color, Ancestry, National Origin, Gender, Sexual Orientation, Marital Status, Religion, Age, Disability, Gender Identity, Results Of Genetic Testing, Or Service In The Military. Equal Employment Opportunities Apply To All Terms And Conditions Of Employment, Including Hiring, Placement, Promotion, Termination, Layoff, Recall, Transfer, Leave Of Absence, Compensation, And Training.
+**Americans with Disabilities Act (ADA) and Reasonable Accommodation**
+To Ensure Equal Employment Opportunities For Qualified Individuals With Disabilities, Mt. Hood Oregon Resort Will Make Reasonable Accommodation For The Known Disability Of An Otherwise Qualified Individual Unless Undue Hardship On The Operation Of The Business Will Result Into Significant Disrupti이!. Employees Who May Require Reasonable Accommodation Should Contact The Human Resources Department.
+Non-Discrimination
+Mt. Hood Oregon Resort Expressly Prohibits Any Form Of Unlawful Employee **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment. Or Discrimination Based On Any Of The Characteristics Mentioned Above. Improper Interference With The Ability Of Other Employees To Perform Their Expected Job Duties Is Not Tolerated.
+Any Employees With Questions Or Concerns About Equal Employment Opportunities In The Workplace Are Encouraged To Bring These Issues To The Attention Of The Hr Manager. The Company Will Not Allow Any Form Of Retaliation Against Individuals Who Raise Issues Of Equal Employment Opportunity. If An Employee Feels He Or She Has Been Subjected To Any Such Retaliation, He Or She Should Bring It To The Attention Of The Hr Manager.
+**Complaint Procedure**
+Any Employee Who Feels He Or She Has Been Discriminated Against Should Promptly Take The Following Steps. All Complaints Will Be Subject To Investigation And **Confidentiality**.
+1. Complaints should be submitted preferably in writing to your immediate supervisor and/or the Human Resources Manager if needed. You will be asked to provide details of the alleged discriminating behavior such as date, time, places and witnesses if any, either orally or in writing.
+2. Upon receiving a complaint or being advised by a supervisor or manager that such violation of this policy may be occurring, the HR manager will notify senior management and review the complaint with the company's legal counsel.
+3. The HR manager will initiate an investigation to determine whether there is a reasonable basis for believing that the alleged violation of this policy occurred.
+4. If necessary, the complainant and the respondent will be separated during the course ofthe investigation, either through internal transfer or administrative leave.
+5. During the investigation, the HR manager, together with legal counsel or other management employees, will
+interview the complainant, the respondent and any witnesses to determine whetherthe alleged conduct occurred.
+6. If the investigation is inconclusive or if it is determined that there has been no violation of policy but potentially problematic conduct may have occurred, the HR manager may recommend appropriate preventive action.
+7. Senior management will review the investigative report and any statements submitted by the complainant or respondent, discuss results of the investigation with the HR manager and other management staff as appropriate, and decide what action, if any, will be taken. The appropriate action will depend on the following factors:
+a)	The severity, frequency and pervasiveness ofthe conduct;
+b)	Prior complaints made by the complainant;
+c)	Prior complaints made against the respondent; and
+d)	The quality ofthe evidence (e.g., firsthand knowledge, credible corroboration).
+8. Once a final decision is made by senior management, the HR manager will meet with the complainant and the respondent separately and notify them ofthe findings ofthe investigation. If disciplinary action is to be taken, the respondent will be informed ofthe nature ofthe discipline and how it will be executed.
+Alternative Legal Remedies
+Nothing In This Policy May Prevent The Complainant Or The Respondent From Pursuing Formal Legal Remedies Or Resolutions Through Local, State Or Federal Agencies Or The Courts.
+Retaliation
+It Is Against The Resorts Policy For A Supervisor Or Any Employee To Retaliate Against Any Employee Who Files A Bona Fide Complaint Or Discrimination Neither Will Have An Adverse Impact On The Employees' Employment Status. However, Filing Groundless Or Malicious Complaints Is An Abuse Of This Policy And Will Be Treated As A Violation.
+Any Person Who Is Found To Have Violated This Aspect Of The Policy Will Be Subject To Disciplinary Action Up To And Including Termination Of Employment.
+Objective
+Mount Hood Oregon Resort Strives To Create And Maintain A Work Environment In Which People Are Treated With Dignity, Decency And Respect. The Environment Of The Company Should Be Characterized By Mutual Trust And The Absence Of Intimidation, Oppression And Exploitation. Mount Hood Oregon Resort Will Not Tolerate Unlawful Discrimination Or **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment. Of Any Kind. Through Enforcement Of This Policy And By Education Of Employees, Mount Hood Oregon Resort Will Seek To Prevent Correct And Discipline Behavior That Violates This Policy.
+All Employees, Regardless Of Their Positions, Are Covered By And Are Expected To Comply With This Policy And To Take Appropriate Measures To Ensure That **Prohibited Conduct** Does Not Occur. Appropriate Disciplinary Action Will Be Taken Against Any Employee Who Violates This Policy. Based On The Seriousness Of The Offense, Disciplinary Action May Include Verbal Or Written Reprimand, Suspension, Or Termination Of Employment.
+Pre-Employment Inquiries
+Except As May Be Required By A Reasonable Demands Of A Position Or A Bona Fide Occupational Qualification, Compliance With Government Reporting And Record-Keeping Requirements, Mount Hood Oregon Resort Will Not Elicit Information Concerning Race, Creed, Color, Religion, Gender, Gender Identity, Marital Status, National Origin, Disability, Age, Veteran Or Current Or Future Military Status, Sexual Orientation Or Any Other Protected Status From Applicants For Employment.
+Employment Eligibility Verification
+Mount Hood Oregon Resort Is Committed To Employing Individuals Who Are Legally Authorized To Work In The United States. In Compliance With The Immigration Reform And Control Act Of 1986, Each Newly Hired Employee Must Provide Documentation Establishing Identity And Employment Eligibility.
+Identification Must Be Provided Within Three (3) Working Days From An Employee'S Start Date. Failure To Provide Documentation Will Result In Suspension Or Termination Of Employment Without Further Notice.
+Background Screening Policy
+Mount Hood Oregon Resort Has Determined For Each Position In The Company Whether A Criminal History Background Is Required Based On The Type Of Position, Business Necessity And Applicable State Laws. When A Criminal History Record Check Is Required, The Applicant For The Position Must Authorize The Mount Hood Oregon Resort To Take A Background Check Using The Company Provided Form.
+Introductory Period
+New Employees Are Subject To An Introductory Period Of 90 Days To Give Both The Employees And Mount Hood Oregon Resort An Opportunity To Evaluate The Employees' Ability To Perform The Job Responsibilities And Get Acquainted With Colleagues.
+Personnel Records
+These Records Are Confidential. Only Human Resources And Your Manager Have Access To Your Personnel Files. You Can Visit Human Resources If You Wish Any Personal File Information Or Upon Written Request.
+Job Duties
+Your Supervisor Will Explain Your Job Responsibilities And Company Standards And Protocols On Or Before Your Starting Date. A Job Description Of Your Position Will Be Presented To You Upon Hiring.
+Additional Job Responsibilities Will Be Assigned From Time To Time. Mount Hood Oregon Resort May Ask Employees To Work On Special Projects Or To Assist With Other Work Necessary For The Operation Of The Resort. Mount Hood Oregon Resort Reserves The Right, At Any Time, With Or Without Notice To Alter Or Change Job Responsibilities, Reassign Or Transfer Job Positions, Or Assign Additional Job Responsibilities.
+Performance Evaluations
+Your Supervisor Will Periodically Review Your Performance. Your Performance Evaluations Are A Review Of The Quality And Quantity Of The Work You Perform, Your Knowledge Of Your Job, Your Initiative, Your Work Attitude And Your Attitude Towards Others. Positive Performance Evaluations Do Not Always Guarantee Increases In Salary Or Promotions.
+Promotion
+Mount Hood Oregon Resort Encourages Its Employees To Apply For Positions Within The Company. When Possible, We Promote From Within The Resort; However, The Management Reserves The Right To Fill Vacant Positions From Outside The Resort When Necessary.
+Employment Outside The Company
+Mount Hood Oregon Resort Does Not Prohibit Employees From Holding Other Employment Outside The Resort, However Outside Employment Will Not Be Allowed To Interfere With Employee'S Efficiency And Safety On The Job. All Employees Will Be Evaluated By The Same Performance Standards.
+Voluntary And Involuntary Termination Of Employment
+If You Decide To Leave Your Employment With Mt. Hood Oregon Resort, We Ask That You Give Us At Least Two Weeks' Written Notice. Employees Who Provided Such Notice Will Receive Payment For Any Earned But Unused Paid Vacation Time At An Employee'S Current Pay Rate Upon Termination. All Resort-Owned Property Such As Vehicles, Keys, Uniforms, Identification Badges, And Credit Cards Etc. Must Be Returned At The Time Of Termination. Employees Who Fail To Give Proper Notice May Result In Ineligibility For Re-Hi Re And Forfeiture Of Earned And Unused Vacation Leave Payout. Employees Who Are Involuntarily Terminated Are Not Entitled To Any Accrued And Unused Vacation And Sick Leave Payout Upon Termination.
+Exit Interviews
+In Instances When An Employee Voluntarily Leaves, Mount Hood Oregon Resort Would Like To Discuss Your Reason/S For Leaving. During The Interview, You Can Express Yourself Freely. We Hope That You Will Be Parted With The Resort In Good Term And We Would Like You To Provide Your Insights Into Possible Improvements. All Information Will Be Kept As Confidential And Will In No Way Affect Any Reference Information That Mount Hood Oregon Resort Will Provide Another Employer About You.
+Reference Check
+All Requests For References Must Be Directed To Human Resources Or The Resort Manager. Managers, Supervisors And Employees Are Not Authorized To Release References For Current Or Former Employees. Authorized Disclosures By The Employee Can Be Made To Provide A Prospective Employer With Information On Salary Or Wages Earned.
+EMPLOYEE CODE OF CONDUCT
+**Prohibited Conduct** Under this Policy
+Mount Hood Oregon Resort, In Compliance With All Applicable Federal, State And Local Anti-Discrimination And **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment. Laws And Regulations, Enforces This Policy In Accordance With The Following Definitions And Guidelines:
+**Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment.
+Mount Hood Oregon Resort Prohibits **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment. Of Any Kind, Including Sexual **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment., And Will Take Appropriate And Immediate Action In Response To Complaints Or Knowledge Of Violations Of This Policy. For Purposes Of This Policy, **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment. Is Any Verbal Or Physical Conduct Designed To Threaten, Intimidate Or Coerce An Employee, Co-Worker, Or Any Person Working For Or On Behalf Of Mount Hood Oregon Resort.
+The Following Examples Of **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment. Are Intended To Be Guidelines And Are Not Exclusive When Determining Whether There Has Been A Violation Of This Policy:
+Verbal **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment. Includes Comments That Are Offensive Or Unwelcome Regarding A Person'S National Origin, Race, Color, Religion, Gender, Sexual Orientation, Age, Body, Disability Or Appearance, Including Epithets, Slurs And Negative Stereotyping.
+Non-Verbal **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment. Includes Distribution, Display Or Discussion Of Any Written Or Graphic Material That Ridicules, Denigrates, Insults, Belittles Or Shows Hostility, Aversion Or Disrespect Toward An Individual Or Group Because Of National Origin, Race, Color, Religion, Age, Gender, Sexual Orientation, Pregnancy, Appearance, Disability, Sexual Identity, Marital Status Or Other Protected Status.
+Sexual **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment.
+Sexual **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment. Is A Form Of Unlawful Employment Discrimination Under Title Vii Of The Civil Rights Act Of 1964 And Is Prohibited Under Mount Hood Oregon Resort'S Anti-**Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment. Policy.
+Verbal Sexual **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment. Includes Innuendoes, Suggestive Comments, Jokes Of A Sexual Nature, Sexual Propositions, Lewd Remarks And Threats; Requests For Any Type Of Sexual Favor (This Includes Repeated, Unwelcome Requests For Dates); And Verbal Abuse Or "Kidding" That Is Oriented Toward A Prohibitive Form Of **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment., Including That Which Is Sexual In Nature And Unwelcome.
+Non-Verbal Sexual **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment. Includes The Distribution, Display Or Discussion Of Any Written Or Graphic Material, Including Calendars, Posters And Cartoons That Are Sexually Suggestive Or Show Hostility Toward An Individual Or Group Because Of Sex; Suggestive Or Insulting Sounds; Leering； Staring; Whistling; Obscene Gestures; Content In Letters, Notes, Facsimiles, E-Mails, Photos, Text Messages, Tweets And Internet Postings; Or Other Forms Of Communication That Are Sexual In Nature And Offensive.
+Physical Sexual **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment. Includes Unwelcome, Unwanted Physical Contact, Including Touching, Tickling, Pinching, Patting, Brushing Up Against, Hugging, Cornering, Kissing, Fondling, And Forced Sexual Intercourse Or Assault.
+Courteous, Mutually Respectful, Pleasant, Non-Coercive Interactions Between Employees That Are Appropriate In The Workplace And Acceptable To And Welcomed By Both Parties Are Not Considered To Be **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment., Including Sexual **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment..
+On-Duty/Off-Duty Conduct
+While Mt. Hood Oregon Resort Does Not Seek To Interfere With The Off-Duty And Personal Conduct Of Its Employees, Certain Types Of On Or Off-Duty Conduct May Interfere With The Resorts Legitimate Business Interests. Forthis Reason, Employees Should Be Aware Of The Policies Set Forth. Employees Are Expected To Conduct Their Personal Affairs In A Manner That Does Not Adversely Affect Mt. Hood Oregon Resort'S Or Their Own Integrity, Reputation Or Credibility. Illegal Or Immoral Off-Duty Conduct On The Part Of An Employee, Which Adversely Affects The Resort'S Legitimate Business Interests Or The Employee'S Ability To Perform His Or Her Job Will Not Be Tolerated.
+**Prohibited Conduct**
+There Are Many Of Us Working Together At Mt. Hood Oregon Resort And We Need To Guard Our Security, Our Personal Safety, And Our Welfare And Mt. Hood Oregon Resort Operations. The Following Conduct Is Prohibited, And Will Not Be Tolerated, And Will Result In Corrective Actk아］, Up To And Including Termination. This List Of **Prohibited Conduct** Is Illustrative Only. Other Types Of Conduct Detrimental To Security, Personal Safety, Employee Welfare And Mt. Hood Oregon Resorts Interests May Also Be Prohibited.
+1. Falsification of employment records, employment information, or other resort records.
+2. Recording the work time of another employee or allowing any other employee to record your work time or allowing falsification of any timecard (including punching in or outside your shift schedule), either your own or another employee.
+3. Theft, deliberate or careless behavior or damage of any resort property or the property of any employee or guest.
+4. Removing or borrowing a guests, Mt. Hood Oregon Resort's or other employee's property without prior authorization.
+5. Unauthorized use of resort time, property, equipment, materials, or facilities.
+6. Provoking a fight or fighting during working hours or on Mt. Hood Oregon Resort property.
+7. Participating in horseplay or practical jokes on resort time.
+8. Carrying unauthorized firearms, knives or any other dangerous weapons on the premises at anytime.
+9. Engaging in criminal conduct whether or not related to job performance.
+10. Causing, creating or participating in a disruption of any kind during working hours or on resort property.
+11. Insubordination, including but not limited to failure or refusal to obey the orders or instructions of a supervisor or member of management, or the use of abusive or threatening language toward a supervisor or member of management. This includes any employee put in charge of a department when management is off-site.
+12. Using abusive language at any time on Mt. Hood Oregon Resort premises.
+13. Failure to notify a supervisor when unable to report to work or unacceptable excuse.
+14. Excessive lateness or absenteeism.
+15. Leaving work without permission or notification for any reason during scheduled working hours.
+16. Failure to observe working schedules, including rest and meal periods.
+17. Sleeping or malingering on the job.
+18. Making or accepting personal telephone calls unless prior authorization is given. (Cell phone use limited to breaks).
+19. Working overtime without authorization or refusing to work assigned overtime.
+20. Wearing extreme, unprofessional or inappropriate styles of dress or hair while working.
+21. Violation of any safety, health, security or Resort policy, rule, or procedure. This includes unsafe driving in your own vehicle while on property or in a company vehicle.
+22. Negligence that endangers the safety or health of a fellow employee or guest.
+23. Committing a fraudulent act or a breach of trust.
+24. Failure to immediately notify management of loss of Resort master keys or issued bank keys.
+25. Smoking, vaping or chewing tobacco in any area highly visible to guests, in a company vehicle and within
+10 feet of all entrances, exits, windows that open, and ventilation intakes of workplaces or public places, in accordance with Oregon's Smoke Free Workplace Law. Vaping, E-cigarettes and other tobacco products are covered under the Oregon smoking policy. Marijuana is barred from consumption at work.
+26. Malicious or negative behavior or gossip toward any Employee or guest.
+27. Sale, distribution, use, or being under the influence of illegal drugs/ alcohol and even legal drugs that impair them significantly while engaged in performance of duties for Mt. Hood Oregon Resort.
+28. Loitering or in any Resort work areas when not on shift unless authorized by a manager.
+29. Starting your shift late or leaving the job shift early without notifying a supervisor.
+30. Having pets anywhere on property, either inside or outside, attended or unattended, while on shift.
+This Statement Of **Prohibited Conduct** Does Not Alter Mt. Hood Oregon Resort'S Policy Of **Employment At-Will**. Either You Or Mt. Hood Oregon Resort May Terminate The Employment Relationship At Any Time For Any Reason, With Or Without Cause Or Without Notice.
+Corrective Training Action
+Depending On The Severity Of The Infraction, And In Mount Hood Oregon Resorts Sole Discretion, Mount Hood Oregon Resort May Apply Any Level Of Discipline, Including Termination, At Any Time. Any Necessary Corrective Training Action Should Be Accomplished In A Timely Manner. Any Decision To Terminate Employment Must First Be Discussed With And Independently Reviewed By Human Resources And/Or General Manager.
+**Confidentiality**
+All Complaints And Investigations Are Treated Confidentially To The Extent Possible, And Information Is Disclosed Strictly On A Need-To-Know Basis. The Identity Of The Complainant Is Usually Revealed To The Parties Involved During The Investigation, And The Hr Manager Will Take Adequate Steps To Ensure That The Complainant Is Protected From Retaliation During And After The Investigation. All Inf아Mation Pertaining To A Complaint Or Investigation Under This
+10 | P a g e
+policy will be maintained in secure files within the HR department.
+Relationships
+Mt. Hood Oregon Resort Strongly Believes That A Work Environment Where Employees Maintain Clear Boundaries Between Employee Personal And Business Interactions Is Mandatory For Effective Business Operations. Although This Policy Does Not Prevent The Development Of Friendships Or Romantic Relationships Between Co-Workers, It Does Establish Boundaries As To How Relationships Are Conducted During Working Hours And Within The Working Environment.
+Disclosure
+Any Consensual Romantic/Intimate Relationship Between A Supervisor/Manager And Members Oftheir Department Must Be Disclosed By The Supervisor/Manager To His/Her Direct Superior Or To The Human Resources Manager Who Will Assess The Situation And Resolve Any Actual Or Potential Conflict Of Interest Created By The Relationship.
+Failure To Comply
+Failure To Disclose Consensual Relationships Or Comply With A Recommendation To Resolve Conflict With This Policy May Result In Discipline Up To And Including Termination Of Employment.
+Personal Relationship Conduct
+1. During working time and in working areas, employees are expected to conduct themselves in an appropriate workplace manner that does not interfere with others or with overall productivity.
+2. During non-working time, such as lunches, breaks, and before and after work periods, employees engaging in personal exchanges in non-work areas should observe an appropriate workplace manner to avoid offending other workers or putting others in an uncomfortable position.
+3. Employees are strictly prohibited from engaging in physical contact that would in any way be deemed inappropriate in the workplace while anywhere on company premises, whether during working hours or not.
+4. Employees who allow personal relationships with co-workers to adversely affect the work environment will be subject to Mt. Hood Oregon Resort's disciplinary policy.
+5. Employee off-duty conduct is generally regarded as private, as long as such conduct does not create problems within the workplace.
+6. Failure to cooperate with Mt. Hood Oregon Resort to resolve a conflict or problem caused by a romantic or sexual relationship in a mutually agreeable fashion may be deemed insubordination and would result in disciplinary action up to and including termination.
+7. The provisions of this policy apply regardless of the sexual orientation ofthe parties involved.
+8. Any concerns about the administration of this policy should be addressed to the HR Manager
+DRESS CODE AND GROOMING STANDARDS
+All Employees Should Dress Neatly, Professionally And Comfortably. Our Professional Appearance Reflects Our Efforts To Maintain A Clean And Welcoming Environment For Our Guests. Listed Below Are Some Guidelines.
+General Policy
+1. Hair must be neat, clean and well-groomed.
+2. Long hair must be tied back when working with food.
+3. Facial hairs such as mustaches, beards and sideburns must be neat, clean and well-trimmed.
+4. Nothing about the employees' appearance or personal hygiene should be "offensive" to co-workers and guests.
+5. The nails should always be clean and trimmed. Nail polish and nail arts are prohibited when handling foods. Wearing gloves is necessary.
+6. No spraying of perfumes and cologne in the kitchen and dining areas. Be mindful when spraying fragrances in common areas and should be kept to a minimum and be unobtrusive to our co-workers and guests.
+7. Jewelry should be worn in moderation. Jewelry which distracts from consistency of our uniform is not allowed.
+8. Facial piercings are fine if they are not excessive and not distractive to guests.
+9. Tattoos are a matter of personal choice, but all visible tattoos must not be offensive to our co-workers and guests.
+10. Sunglasses are for eye protection and are for outside daytime use only. Unless medically required, they are not to be worn inside the workplace.
+11. Caps and hats are not to be worn while employees are on duty, unless part of their uniform. Wearing hats and beanies may be allowed if it is approved by the employees* department manager. If the approved hats are ball caps, they must be worn in a conventional way.
+Uniformed Employees
+Employees Who Are In Positions Requiring Uniforms Must Wear The Proper Uniform While On Duty. Employees Must Have Uniforms Prior To Beginning Their Work Period. Uniforms Must Be Neat And Clean And In Proper Condition. Employee Uniforms Depend On Your Department And Positions. Employees' Department Manager Will Determine Their Employees' Specific Uniform. Nametags Must Be Worn At All Times During Working Hours. See Your Manager Or Human Resources For The Replacement Of Nametags As Needed.
+Non-Uniformed Employees
+Non-Uniformed Employees Must Dress In "Good Business Taste," That Is, Attire Which Is Suitable To Their Jobs And Presentable To The Public. Some Examples Of The Types Of Attire That Would Be Inappropriate For Our Business Environment Include Revealing Attire, Clothing With Offensive Language Or Images, Torn Clothing, And Overly Large Clothing Drooping From The Waist Or Shoulders. Your Immediate Supervisor Or Manager And/Or Human Resources Will Determine Appropriate Standards Should Any Discrepancies Or Questions Arise.
+If You Report For Work In Violation Of These Appearance And Dress Code Policies (E.G., Without Your Uniform, Wearing Inappropriate Clothing, Etc.), Your Supervisor Will Send You Home Without Pay To Rectify Your Appearance. You Are Expected To Return To Work In Compliance With These Policies As Soon As Possible To Begin Your Shift. Your Failure To Comply With These Policies May Result In Discipline, Up To And Including Termination Of Employment.
+EMPLOYMENT CLASSIFICATION
+To Determine Eligibility For Benefits And Overtime Status And To Ensure Compliance With Federal And State Laws And Regulations, Mt. Hood Oregon Resort Classifies Its Employees As Shown Below. Mt. Hood Oregon Resort May Review Or Change Employee Classifications At Any Time.
+Exempt Employee. Exempt Employees Are Paid On A Salaried Basis And Are Not Eligible To Receive Overtime Pay.
+Non-Exempt Employee. Nonexempt Employees Are Paid On An Hourly Basis And Are Eligible To Receive Overtime Pay For Overtime Hours Worked.
+Regular, Full-Time Employee. Employees Who Are Not In A Temporary Status And Work A Minimum Of 30 Hours Weekly And Maintain Continuous Employment Status And Stated On Personnel Action Form. Generally, These Employees Are Eligible For The Full-Time Benefits Package And Are Subject To The Terms, Conditions, And Limitations Of Each Benefits Program.
+Regular, Part-Time Employee. Employees Who Are Not In Temporary Status And Who Are Regularly Scheduled To Work Fewer Than 30 Hours Weekly, But At Least 20 Hours Weekly, And Who Maintain Continuous Employment Status. Part- Time Employees Are Eligible For Some Of The Benefits Offered By The Company And Are Subject To The Terms, Conditions, And Limitations Of Each Benefits Program.
+Seasonal Employee
+An Employee Who Has Accepted Employment For A Defined "Season". A "Season" Shall Have A Defined Starting Date And Ending Date And May Not Be Longer Than Six (6) Months In Duration. Seasonal Employees May Work Full-Time Or Part- Time.
+On-Call Employee
+An Employee Who Is Not Regularly Scheduled Or On A Fixed Schedule To Work But Is Called In On An As-Needed Basis. These Employees Generally Work For A Specific Period, Function, Special Project, Or Replace Employees Who Are Absent.
+EMPLOYEE SCHEDULES AND TIMEKEEPING POLICY
+Schedules And Breaks
+Mount Hood Oregon Resort Is Normally Open For Business 24 Hours A Day, All Year Round. The Standard Workweek Is From Monday 12:00 A.M. Until Sunday 11:59 P.M. And Generally Consists Of 40 Work Hours. Business Office Hours Are 8:00 A.M. To 5:00 P.M., With An Hour Unpaid Lunch Break. Individual Work Schedules May Vary Depending On The Needs Of Each Department.
+Meal And Rest Breaks
+Employees Are Entitled To A 30-Minute Unpaid Meal Break Each Day. If A Non-Exempt Employee Is Required To Work Through A Meal Break By Their Supervisor, They Will Be Paid For The 30-Minute Period. Employees Are Also Entitled To Two Paid 10-Minute Rest Periods Each Day And Two 15-Minute Breaks For Minor Employees. Meal And Rest Breaks Will Be Scheduled By The Department Supervisor Or Manager.
+Lactation Break
+Mount Hood Oregon Resort Appreciates The Need For Employees Who Are Breastfeeding Young Children To Express Milk While At Work. To Facilitate This Task, Employees Who Need To Express Milk For Children Are Provided With Breaks Of 30 Minutes During Every 4-Hour Work Period, Or Major Portion Thereof To Express Milk. Unless Combined With An Employee'S Paid 10-Minute Breaks, Such Breaks Are Unpaid.
+Exchanging Work Schedules
+Exchanging Work Schedules With Other Employees Is Strongly Discouraged. However, If It Is Necessary To Exchange Schedules, Notify Your Supervisor Who May Authorize An Exchange. Schedule Exchanges Will Not Be Approved For Mere Convenience Or If The Exchange Will Result In Disruption Of Or Interference With Normal Operations Or Will Result In Excessive Overtime.
+Clocking-Ln/Out Policy
+Non-Exempt Employees Are Expected To Clock-In At The Start And Clock-Out At The End Of Their Shift At A Designated Time Clock Stations As Well As The Beginning And Ending Time Of Each Meal Breaks Unless On A Company-Related Business.
+Any Changes Regarding Time Worked Must Be Reported To The Supervisor Or Manager. Frequent Missed Time Clock Punches, Clocking In Or Out With Another Employee'S Timecard, Allowing Another Employee To Clock In Or Out For You, Or Altering A Time In Or Out Will Not Be Tolerated And Will Result In Disciplinary Action. Any Errors In Your Time Punches Should Be Reported Immediately To Your Supervisor, Who Will Correct Legitimate Errors.
+Accurate Recording Of Time Worked Is The Responsibility Of Every Exempt And Non-Exempt Employee. Altering, Falsifying And Or Tampering With Time Records, Or Recording Time On Another Employee'S Time Record May Result In Disciplinary Action Up To And Including Termination Of Employment.
+Overtime/Non-Exempt Employees: When Required Due To The Needs Of The Business, You May Be Asked To Work Overtime. Overtime Is Actual Hours Worked In Excess Of 40 In A Single Workweek. Non-Exempt Employees Will Be Paid Overtime Compensation At The Rate Of One And One Half Of Their Regular Pay Rate For All Hours Over 40 Hours Of Actual Work In A Single Workweek. Paid Leave, Such As Holidays, Vacation, Bereavement Time, And Jury Duty Does Not Apply Toward Work Time. Overtime Must Be Approved In Advance By Your Supervisor. Unauthorized Overtime Will Be Subject To Disciplinary Action, Up To And Including Termination. You Must Adhere To Your Work Schedule And Not Clock In Early Or Leave Later Than Schedule Unless Approved By Your Manager.
+Workweek
+The Work Week For Payroll Purposes Is Monday Through Sunday. Any Changes In Scheduling Hours Are Made By Your Supervisor.
+**ATTENDANCE POLICY & COMPENSATION**
+As An Employee Of Mt. Hood Oregon Resort, You Are Expected To Be Regular In Attendance And Punctual. Employees Are Also Expected To Remain At Work For Their Entire Work Schedule Unless Otherwise Instructed By Your Supervisor, Except For Meal Periods Or When Required To Leave On Authorized Resort Business.
+Calling-In Procedure
+If You Are Unable To Report For Work On Any Day, You Must Call Your Supervisor, Or If They Are Not Available, Human Resources, Before The Time You Are Scheduled To Begin Working For That Day. You Must Call And Not Send Text To Report Your Absence A Minimum Of 2 Hours Before Your Scheduled Shift. You May Not Leave Any Message With A Co-Worker. Be Sure To Know Your Supervisor'S Direct Line. Notification For Being Tardy Is Also Required Preferably Before The Start Of Your Shift. If You Can Notify Your Tardy At Least One Hour Before The Start Of Your Shift, Please Do So.
+Tardiness
+It Is The Policy Of Mount Hood Oregon Resort To Handle Tardiness On A Per-Violation Basis. Although We Understand That Circumstances Out Of Your Control May Be In Place, For Us To Run A Successful Business We Must Be Able To Rely On Our Employees To Be On Time At Work.
+1. First unexcused tardy will result in a verbal warning.
+2. Second unexcused tardy will result in a written warning that will be placed in your file.
+3. Third unexcused tardy will be your final warning
+4. the next step will be termination of employment
+Failure To Report Absence To Your Supervisor Or Hr Will Result In A Warning. Three Warnings Issued And The Resort Will Consider That You Have Abandoned Your Employment. Failure To Report To Work Without Notification For Any Time Scheduled May Result In Disciplinary Action Up To, And Including, Termination Of Employment.
+No-Call, No-Show
+It Is When An Employee Does Not Call Or Show For Their Shift. A No-Call, No-Show May Result In Immediate Corrective Action Up To And Including Termination.
+Payment Of Wages
+Paydays Are Scheduled Bi-Weekly (Every Other Friday). Payroll Checks May Be Picked Up At The Designated Common Area Oryou May Request From Your Supervisor/Manager. Your Supervisor May Set A Time For Distribution Of Paychecks. All Checks Must Be Signed & Picked Up By The Employee, Unless Previous Authorization Has Been Granted. If There Is An Error In Your Check, Please Report It Immediately To Your Supervisor Or Department Head. Direct Deposit Is Strongly Encouraged.
+Payroll Deductions
+Mount Hood Oregon Resort Is Required To Deduct From Each Employee'S Pay, Where Applicable, Amounts Including But Not Limited To Federal And State Withholding Taxes, Social Security Taxes And Any Court Ordered Assignments.
+If You Believe That An Improper Deduction Has Been Made To Your Salary, We Encourage You To Immediately Report The Matter To Your Direct Supervisor Or To The Human Resources Manager. It Will Be Promptly Investigated And Reimbursed To You Once Determined The Improper Deduction.
+EMPLOYEE BENEFITS AND LEAVE POLICES
+Holidays
+Exempt And Non-Exempt Employees Working The Following Holidays Will Be Paid At One- And One-Half Times Their Regular Rate Of Pay. No Pay Will Be Given To Hourly Employees Not Working On These Holidays. The Following Days Will Be Considered As Holidays At Mount Hood Oregon Resort: New Year'S Day, Memorial Day, Independence Day, Labor Day, Thanksgiving Day And Christmas Day. If The Employee Is Working Overtime During A Holiday, The 1 Vi Times Pay Stays The Same.
+If Required To Work On These Holidays, Salaried Employees Will Be Granted An Equivalent Day Off, When Business Permits. If A Holiday Falls During A Salaried Employee'S Vacation, It Will Not Be Counted As A Vacation Day.
+Vacation Leave
+Vacation Is Available For All Full-Time Employees Based On Years Of Service And A Standard 40-Hour Work Week. Upon Completion Of 6 Months Of Full-Time Employment, Salaried Managers Will Be Awarded Vacation Hours And May Begin Using This Time. Upon Completion Of 1 Year Of Full-Time Employment, Hourly Employees Will Be Awarded Vacation Hours And May Begin Using This Time.
+1st to 2nd Year of Continuous Employment will be granted 40 hours or equivalent to 5 regular days vacation. 3rd through 5th Year of Continuous Employment will be granted 56 hours or equivalent to 7 regular days vacation.
+6th through 10th Year of Continuous Employment will be granted 80 hours or equivalent to 10 regular days vacation.
+11th year of Continuous Employment and Up will be granted 120 hours or equivalent to 15 regular days vacation
+Vacation Time Earned On January 1St Must Be Taken Prior To December 31St Of The Same Year; It Will Not 'Carryover7 To The Next Year Unless Business Necessity Precludes An Employee From Taking Vacation, And Only Then Upon Approval By The General Manager.
+Any Earned And Unused Vacation Leave Credits Will Be Paid At The Employee'S Current Pay Rate Upon Termination Given That The Employee Has Properly Rendered His/Her 2-Week Written Notice. An Employee Who Has Been Legally Dismissed From Work Is Not Entitled For Any Earned And Unused Vacation Leave Pay-Out. There Is No Pay Given In Lieu Of Taking Actual Vacation Days.
+Employees On Unpaid Leave Do Not Accrue Vacation Time. Mount Hood Oregon Resort Reserves The Right To Approve Or Deny Any Vacation Leave Request.
+Please Take Note That Due To The Seasonal And Fluctuating Nature Of Our Business, Vacation Time May Not Necessarily Be Approved During Other Peak Times Of Business. All Requests For Time Off Should Be Made As Far In Advance As Possible, But At Least 14 Days Priorto The Requested Dates. All Requests Must Be Filled Out, Approved By The Department Manager And Eligibility Verified By A Human Resources Representative Before Final Approval By The General Manager.
+Sick Leave
+All Employees Are Eligible To Accrue Sick Leave Credit From The Start Of Their Employment Up To Maximum Of 40 Hours At A Rate Of 1 Hour Of Paid Sick Time For Every 30 Hours Worked. However, Employees Must Be Employed 90 Days Before They Can Use Sick Leave Credits. Employees Can Annually Carry-Over 40 Unused Sick Leave Not To Exceed 40 Hours.
+Sick Time May Be Taken In No Less Than 4 Hr. Increments. When Requesting Sick Leave, A Personnel Action Form (Paf) Must Be Filled Out And Signed By Your Manager And Given To Human Resources For Payroll.
+If The Need To Use Sick Leave Is Foreseeable, The Employee Shall Make A Request To The Manager At Least 10 Days In Advance. For Unplanned Sick Leave Use, Follow The Calling-In Procedure. Employees Shall Make Reasonable Efforts To Schedule The Use Of Sick Leave So As Not To Unduly Disrupt Resort Operations.
+If An Employee Is Absent More Than 3 Consecutive Days, Mount Hood Oregon Resort May Require A Medical Certification Verifying The Need For Sick Leave From A Health Care Provider.
+Coordination With Workers7 Compensation: An Employee May Choose To Use Sick Leave To Equal The Difference Between The Workers' Compensation For Lost Time And The Employee'S Regular Salary Rate. An Employee Who Exhausts Sick Leave Must Use Any Accrued Paid Leave To Include Vacation Hours.
+Mount Hood Oregon Resort Views The Following As Possible Patterns Of Abuse And May Require Documentation From A Licensed Health Care Provider To Verify A Need For Leave At The Employee'S Expense: Repeated Use Of Unscheduled Sick Time On Or Adjacent To Regular Employee Weekends, Holidays, Vacation Pay Day Or When Mandatory Shifts Are Scheduled.
+Personal Leaves Of Absence
+An Employee May Occasionally Have To Take Long-Term Periods Of Unpaid Time Off From Work Due To An Illness Or Personal Situation. The Leave Of Absence Process Is Designed To Grant Eligible Employees Time Off From Work Under The Following General Guidelines:
+1. When there is an expected return to work date.
+2. In order to protect an employee's service
+3. To provide the option to continue their participation in benefit plans, at the employee's expense (to the extent allowed by the plans)
+Falsifying Company Documents May Be Cause For Immediate Termination. Similarly, Obtaining A Leave Of Absence Based On A False Statement Is Grounds For Termination. Accepting Other Employment While On A Leave Of Absence Is Not Allowed And May Be Grounds For Disciplinary Action, Up To And Including Termination. Personal Leaves Have No Guarantee Of Reinstatement. When The Employee Is Ready To Return From An Approved Personal Leave, The Resort Will Decide Whether To Reinstate The Employee To The Same Position, Another Position Or Not At All.
+During The First Year Of Employment, In Extreme Emergencies And Based On Business Needs, A One-Time Leave Of Up To Six Weeks May Be Granted At The Sole Discretion Of The Resort. Leaves Of Absence Must Be Applied For In Advance Of The Leave And Do Not Become Official Until Approved By The Required Manager.
+Leaves Of Absence May Be Granted For The Following Reasons:
+•	Personal reasons of the employee, not to include accepting other employment.
+•	1 Illness or injury for which employee is not eligible to take FMLA leave. An employee on a personal leave of absence will not accrue vacation time.
+Bereavement Leave
+When An Employee Loses Time From Their Scheduled Shift Due To A Death In The Immediate Family, The Employee Should Immediately Contact Their Manager. The Manager May Allow An Employee To Take Up To Three Days' Time Off Without Pay Or Use Sick Time Pay If Accrued After The 91St Day Of Employment. Additional Time May Be Granted Without Pay Based On Managerial Approval. For Purposes Of This Policy, Immediate Family Consists Of The Following:
+Immediate Family Member Is Defined As The Employee'S, Or Employee'S Spouse'S/Domestic Partner'S, Parent, Spouse, Child, Brother, Sister, Grandmother, Grandfather, Grandchild, Son-In-Law, Daughter-In- Law Or Another Member Of The Immediate Household Where The Employee'S Presence Is Required Because Of Illness Or Death In The Immediate Family. Eligible Employees May Take Up To Two Weeks Of Ofla Leave To Attend A Funeral (Or Alternative Ceremony), To Make Arrangements Necessitated By The Death Of A Family Member, Or Simply To Grieve The Death Of A Family Member. The Broad Scope Of Reasons For Which Leave May Be Taken Guarantees Employees The Right To Take Off Two Full Weeks Upon The Death Of A Family Member. The Ofla Definition Of "Family Member" Applies To Bereavement Leave. This Means That Employees May Take Leave Following The Death Of A Spouse, Same-Sex Domestic Partner, Child (Biological, Adoptive Or Foster Parent And Children, Or Otherwise), Parent, Parent-In-Law, Grandparent, Grandchild, Or Same-Sex Domestic Partner'S Parent Or Child.
+A Manager requesting bereavement/funeral leave must submit written notification to the Human Resources Department.
+Family Medical Leave Act (Fmla)
+The Family And Medical Leave Act, Fmla, Provides Eligible Employees With Up To 12 Workweeks Of Unpaid, Job Protected Leave And Requires Group Benefits To Be Maintained During The Leave As If You Continued To Work. The Length Of Leave Is Based On A Rolling Twelve-Month Period, Not A Calendaryear.
+Eligibility
+You Are Eligible For Fmla Leave If You Have Been Employed By The Resort For At Least 12 Months, And If You Have Worked At Least 1,250 Hours In The 12 Months Immediately Preceding Your Leave.
+An Eligible Employee Can Take Up To A Total Of 12 Workweeks Of Unpaid Leave During Any 12-Month Period For One Or More Of The Following Reasons:
+•	For the birth and care of a newborn child of the employee;
+•	For placement with the Employee of a son or daughter for adoption or foster care;
+•	To care for a spouse, son, daughter, or parent with a serious health condition (as defined by the FMLA);
+•	To take medical leave when the Employee is unable to work because of a serious health condition (as defined by the FMLA);
+•	For qualifying exigencies arising out of the fact that the Employee’s spouse, son, daughter, or parent is on active duty or call to active duty status as a member of the regular Armed Forces, National Guard or Reserves in support of a deployment to a foreign country; or
+•	To care for a spouse, son, daughter, parent, or next of kin of a current member of the Armed Forces, including a member of the National Guard or Reserves or a covered veteran, with a serious injury or illness (as defined by the FMLA) - this leave is granted up to a total of 26 workweeks of unpaid leave during a "single 12-month period" to care for the service member.
+Job Protection
+Job Protection Leave Allows You To Return To Your Original Or Equivalent Position With Equivalent Pay, Benefits Or Other Employment Terms And Conditions Unless Your Position Would Have Been Eliminated Or Changed Even Had You Remained Actively At Work.
+Insurance
+Mt. Hood Oregon Resort Will Maintain Group Health And Dental Coverage During Your Fmla Leave Under The Same Terms As If You Had Continued To Work. If You Paid A Premium Before Going On Leave, You Must Continue Paying The Premium While On Leave.
+How To Apply
+Outlined Below Are The Steps To Follow When You Wish To Apply For Fmla Leave Of Any Type:
+Step 1. Notify Mount Hood Oregon Resort Or Human Resources Of Your Request For Leave Before Your Leave Begins When The Need For Leave Is Foreseeable At Least 30 Days In Advance.
+In Situations Where Advance Notice Of Leave Is Feasible, The Company May Delay Or Deny Your Leave If You Do Not Provide Sufficient Notice Or Required Certifications. If You Are Having A Planned Medical Procedure, You Must Consult With Your Supervisor To Try To Schedule The Procedure At A Time That Least Disrupts Our Operation And Staffing Needs.
+Where Leave Is Not Foreseeable And Advance Notice Is Not Possible, Notice Should Be Provided To Your Supervisor As Soon As Possible And Practical And In Accordance With The Resorts Notice Of Absences And Tardiness Policy. Failure To Provide Any Required Certifications May Result In The Leave Not Being Designated Fmla Leave. Periodic Re-Certification May Also Be Required, As Well As Periodic Reports Regarding Your Status And Intention To Return To Work.
+Step 2. Mount Hood Oregon Resort Will Notify You Whether You Are Eligible For Fmla Leave Within Five Business Days. If You Are Eligible, Mount Hood Oregon Resort Will Provide You With Your Fmla Rights And Responsibilities And Will Request A Certification (From Health Provider, Etc)
+Step 3. Provide A Completed Certification To The Human Resources.
+Step 4. Human Resources Will Notify You Whether Your Leave Has Been Designated As Fmla Within Five Business Days.
+Step 5. If Your Leave Has Been Designated As Fmla Leave, Then Your Leave Is Fmla Protected.
+Returning To Work
+You Are Expected To Return To Work On The Date Specified In Your Fmla Certification Forms Or As Approved. If Your Expected Return-To-Work Date Changes, You Need To Notify Your Manager And Human Resources As Soon As Possible. You May Be Required To Provide A Fit-For-Duty Certification From Your Doctor Stating Your Release Before Returning To Work.
+Substitution Of Paid Leave
+In All Cases Where Fmla Leave Is Taken, The Employee Must Use All Available Accrued Vacation Concurrently With The Fmla Leave And Must Comply With The Resorfs Normal Paid Leave Policies. All Fmla Leave In Excess Of Accrued Paid Leave Will Be Unpaid Leave.
+Intermittent Leave
+Employees Are Not Required To Use Fmla Leave Entitlement In One Block Of Time. Leave May Be Taken Intermittently Or On A Reduced Leave Schedule When Medically Necessary. Leave Due To Qualifying Exigencies Also May Be Taken On An Intermittent Basis.
+Consequences Of Failing To Return From Leave
+If You Are Unable To Return To Work After The Maximum Allowable Leave, Your Employment May End. Youremployment May Be Terminated If You Are Authorized To Return To Work And Fail To Do So. Under These Circumstances, You Will Be Considered To Have Voluntarily Resigned Your Employment.
+Pregnancy-Related Absences
+An Employee, Male Or Female, May Be Granted A Leave Of Absence Without Pay For Pregnancy And/Or Childbirth. In The Event That An Employee Is Not Eligible For Fmla, They May Still Be Eligible For Maternity Leave Under This Policy. The Decision Whether To Grant This Leave And The Amount Of Leave Provided Will Be In The Resort'S Sole Discretion. The Employee Will Not Lose Any Length Of Service Credit Seniority By Taking An Approved Unpaid Leave Of Absence. Under The Terms And Conditions Of Our Group Health And Dental Insurance Plans, The Employee Will Be Responsible For Paying The Monthly Premiums That Would Have Normally Been Deducted From Pay.
+Failure To Return From Leave Of Absence By The Scheduled Date And Time, Without The Approval Of Additional Leave, Will Be Considered Voluntary Resignation.
+Note: Maternity Leave Will Be Coordinated With Other Leave As Appropriate. Any Additional Leave, Including But Not Limited To Fmla And Vacation, Will Run Concurrently, Not Consecutively.
+Paid Leave Oregon (Plo)
+PLO is a state-run program that provides paid leave for family, medical and safe up to 12 weeks per benefit year to eligible employees.
+Employees Who Currently Work In Oregon And Who Made At Least $1000 In Oregon In Their Base Year May Quality For Paid Leave Oregon (Plo).
+Leave Length
+Paid Leave Oregon Allows Employees To Take Up To 12 Weeks Of Paid Leave Per Benefit Year, Plus Up To Two Additional Weeks For Pregnancy, Childbirth Or Related Medical Conditions. Employees Can Choose When And How To Take The Time Off, As Long As They Take Entire Days Or Weeks. Paid Leave Pays Employees A Percentage Of Their Wages While They Are On Leave. Benefits Amounts Depend On What An Employee Earned In The Prior Year.
+Paid Leave Oregon Protects Your Job If You Have Worked At Mount Hood Oregon Resort For At Least 90 Consecutive Days.
+Return To Your Job
+If Your Position Is Still Available, You Are Entitled To Return To It After Your Leave. If The Position Is No Longer Available, Mount Hood Oregon Must Offer You A Similar Position Or One With Equivalent Pay And Benefits Within 50 Miles Of Your Previous Position.
+Health Benefits
+Paid Leave Oregon Also Protects Your Health Benefits While You Are On Leave. If You Are Paying Premium Before Going On Leave, You Must Continue Paying It While On Leave.
+Notice
+Employees Must Give Mount Hood Oregon Resort At Least 30 Days' Notice If The Leave Is Foreseeable Before Starting Paid Family, Medical Or Safe Leave. For Unforeseeable Leave, You Must Notify Mount Hood Oregon Resort Verbally Within 24 Hours Of Starting Your Leave Followed By Written Notice Within 3 Days Of Starting Your Leave. If An Employee Failed To Give The Required Notice, Paid Leave Oregon (Plo) May Reduce The Employee'S First Weekly Benefit By 25%. Employees May Use Their Accrued Sick And Vacation Leave While On Paid Leave Oregon.
+How Do I Apply For Paid Leave Oregon?
+Step 1. Have Your Documents And Supporting Documents Ready
+Step 2. Give Notice To Mount Hood Oregon Resort
+Step 3. Apply For The Benefits Through
+•	Use and create a Frances Online account, the quickest and easiest way to apply for PLO
+•	Go to paidleave.oregon.gov to print a paper application fbrm, fill out and mail it to Oregon Employment Department, Paid Leave Oregon PO Box 14910, Salem, OR 97309 or call (833) 854-0166.
+Jury Duty
+If You Receive A Jury Summons, You Should Immediately Advise Your Supervisor. During The Period Of Actual Service On The Jury, Exempt Employees Will Receive No Deduction For Absences Of Less Than One Workweek. However, Non-Exempt Employees Will Receive Only The Stipend Paid By The Court For Their Service On The Jury. Mt. Hood Oregon Resort Encourages Employees To Appear In Court For Witness Duty When Subpoenaed. If You Receive A Subpoena, You Should Immediately Advise Your Supervisor. Under Either Circumstance, You Will Be Expected To Report On Your Regular Duties When Temporarily Excused From Attendance In Court.
+Workers* Compensation Benefit
+Employees Who Are Injured On The Job May Be Eligible For Several Kinds Of Benefits, Including Time-Loss Benefits, Coverage Of Medical Treatment, And More As Identified By The Worker’S Compensation Law. In The Event Of An Industrial Injury Or Occupational Illness You Must:
+Step 1. Immediately Notify Your Supervisor And Or Mount Hood Oregon Resort.
+Step 2. You Can Get Medical Treatment From A Medical Provider And Tell Them You Were Injured On The Job. The Doctor Will Complete An Oregon Form 827, Worker'S And Physician'S Report For Workers' Compensation Claims, And Send It To Your Employer'S Workers' Compensation Insurer; Or
+Step 2. After Notifying Your Job Injury, Mount Hood Oregon Resort Will Provide You The 801 "Report Of Job Injury Or Illness" Form To Fill Out.
+Step 3. Once An Employee Fills Out A Copy Of 801 Form, Mount Hood Oregon Resort Must File A Claim To The Insurer Within 5 Days.
+Step 4. Keep Your Medical Appointments, Respond To Requests For Information, And Contact Mount Hood Oregon Resort If You Have Work Restrictions Or Are Ready To Return To Work.
+Step 5. Wait For A Decision As The Insurance Provider Has 60 Days To Approve Or Deny Your Claim.
+Insurance Benefits
+Mount Hood Oregon Resort Offers A Medical, Dental, Vision And Life Insurance Program Provided For Eligible Regular Full-Time Employees. Employees Become Eligible For Insurance Benefits On The First Day Of The Month Following 90 Days Of Continuous Employment If The Employee Has Worked The Required Hours In An Hourly Position. (30 Hours Per Week On Average).
+When Eligibility Requirements Are Satisfied, Every Effort Will Be Made To Notify The Employee Through A Written Notice. No Follow-Up To This Notice Will Be Given, And It Is The Employee'S Responsibility To Respond To The Notice Within The Specified Time Given To Sign Up For The Insurance. Part-Time And Seasonal Employees Are Not Eligible For Insurance Benefits.
+Mount Hood Oregon Resort Pays The Major Percentage Of The Cost For The Employee'S Insurance. Coverage Ends On The Last Day Of Employment. You May Be Eligible To Continue Your Health Benefits Under Cobra.
+Return To Work
+Employees Will Be Required To Provide A Completed Return-To-Work Form To The Worker'S Compensation Administrator Within 24 Hours For Assignment Of Modified Work Duty Once An Attending Physician Releases The Employee To Return To Work. A Modified Or Transitional Work Duty Will Be Offered To Employees Who Have Been Injured On The Job. Modified Work Duty Is A Temporary Work Offer Pending Determination Of An Employee'S Ability To Return To His/Her Regular Duties. Failure To Accept Modified Work Duty That The Attending Physician Has Found To Be Within The Employee'S Capabilities May Result In The Reduction Or Suspension Of Time Loss Benefits.
+Unable To Return To Work
+If An Employee Is Unable To Report For Any Kind Of Work, The Employee Must Call At Least Weekly The Worker'S Compensation Administrator To Report His/Her Medical Status. The Employee Must Provide Mt. Hood Oregon Resort With Current Telephone Number And An Address Where The Employee Can Be Reached And Respond To Any Voice Mail Or Letter Received Within 48 Hours. The Employee Must Also Notify Mt. Hood Oregon Resort Within 24 Hours Of All Changes In The Employee'S Medical Condition. This Information Will Be Kept Confidential.
+Consolidate Omnibus Budget Reconciliation Act Or Cobra
+Is A Federal Law That Allows Employees And Their Qualified Dependents To Continue Health Insurance Coverage Under Mt. Hood Oregon Resorts Health Plan When There Is A Qualifying Event That Would Result In The Loss Of Coverage. In Oregon, Cobra Can Provide Health Insurance Coverage For Up To 18 Months After The End Of Employment Or A Reduction In Hours. For Other Qualifying Events, Such As Divorce Or Death Of The Employee, Cobra Coverage Can Last Up To 36 Months.
+Some Qualifying Events For Cobra Include Job Loss Or Reduction In Hours, Death Of The Employee, Divorce Or Legal Separation, Becoming Eligible For Medicare, And Dependent Child No Longer Eligible For Coverage.
+Veterans Day Leave
+Mt. Hood Oregon Resort Offers Eligible Employees The Ability To Take Unpaid Time Off To Celebrate Veterans Day In Honor Of The Employee'S Military Service. To Be Eligible, Veterans Must Have Served On Active Duty In The Armed Forces For At Least 6 Months And Have Received An Honorable Discharge. Veterans Must Notify Mt. Hood Oregon Resort At Least 21 Days' Notice And Proof Of Service. Mt. Hood Oregon Resort Will Respond In Writing To Time-Off Requests At Least 14 Days Before Veterans Day.
+Oregonsaves
+A retirement savings program is designed to help employees save for their future. All eligible employees will have the opportunity to participate in a simple and convenient way to save for retirement through automatic payroll deductions.
+You Are Eligible To Participate, If You Are At Least 18 Years Of Age, Have Been Employed For At Least 60 Calendar Days And Do Not Have Access To A Retirement Plan Through Another Employer. Oregonsaves Is A Voluntary Program, And Employees Can Opt Out Of Oregonsaves At Any Time.
+Flexible Spending Plan
+Mt. Hood Oregon Resort Has A Health Care And Dependent Care Flexible Spending Account Option Provided For Full- Time Eligible Employees. Full Time Employees Become Eligible For This Benefit On The First Day Of The Month Following 60 Days Of Continuous Employment If The Employee Has Worked The Required Hours Of 30 Hours Per Week On An Average.
+EMPLOYEE PRIVILEGES
+One Of The Many Advantages Of Working At The Resort Is The Employees Privileges Program. You Are Encouraged To Make Use Of Them And Have A Good Time. The Privileges Of The Resort Are Always Subject To Availability Based On Use By Guests.
+Restaurants
+Restaurant Facilities Are Open To Employees As Paying Customers. Off-Shift, A 25 % Discount On Food Items For The Employee And One Guest Is Available In The Food Service Area. On Shift, You May Order As A Guest With The Server At 50% Discount With Business Levels Permitting. Employees Will Not Be Allowed To Wear Any Part Of Their Uniform Or Name Tag When They Are Using This Privilege And Must Maintain The Resorfs Same Grooming Standards While Off Shift And Using Resort Facilities.
+Lounges
+Employees Will Have A 2 Drink Limit For Alcohol At Any Resort Lounges.
+a) Employees are not to use the restaurant or lounge facilities within 2 hours after their shift.
+c)	Employees are not allowed to sit at the barat any time during their shift.
+d)	Employees are not to fraternize with resort guests. Refer to Rules of Conduct.
+e)	Employees must refrain from discussing the operations of the resort.
+g)	Employeeswill not be allowed to wear any partoftheir uniform.
+h)	Employees must maintain the same grooming standards as expected while on shift.
+i)	Employees are not allowed to meet in groups in the lounges.
+j)	Employees are not to be on the property while intoxicated at any time.
+k)	Employees in charge of the bar are to be held accountable to not overserving other employees. Any infraction of the above stated rules can and will result in loss of privileges and disciplinary action.
+Employees May Consume Alcohol If Dining In Our Altitude Or Mallards Restaurants. Maximum Of Two Drinks Per Employee. Exceptions To Alcohol Policy: Meetings With Clients, Vendors Or Corporations. Maximum Of Two Drinks Per Employee.
+Golf/Croquet
+Employees Are Allowed To Play Golf With Approval From The Golf Staff. Each Employee Is Allowed To Bring One Guest Per Week At No Charge Space Available The Day Of Play. No Advance Tee-Times Will Be Made. Tee-Times Must Be Made With The Golf Shop The Day Of Play. Employees Who Bring More Than One Guest Per Week Will Be Allowed To Give Their Guest A Reduced Rate Unless Authorized By The General Manager. Carts With Valid Driver'S License Are Available For Use, And Each Player, Employee And Guest Free Of Charge. Each Player Will Play From Their Own Bag. The Dress Code Is Strictly Enforced And Is As Follows; Shirts With Collars, No Tank Tops, Cutoffs Or Denim Jeans. No Uniforms Are Allowed.
+Novice Players And Those Unfamiliar With The Game Must Check With A Golf Pro Prior To Play Regarding Rules And Etiquette. Employees Are Allowed To Play Croquet Under The Same Guidelines As Golf.
+Gift Shop
+Golf Discounts Are 25%Offall Merchandise. (30 Day Waiting Period On Newly Displayed Golf Merchandise). The Gift Shop Discount For All Merchandise Is 25%.
+Restriction
+Employees Are Restricted From Using The Outdoor Swimming Pool, Hot Tub & Fitness Center At All Times. Tennis Courts And Basketball Courts May Not Be Used By Employees. Employees Are Restricted From Using All Resort Amenities During Any Part Of Their Shift, Including Lunch Breaks.
+Lodging
+Employees Are Not Allowed To Stay At Mt. Hood Oregon Resort But Are Eligible To Stay Through The Best Western Discounted Rate At Properties At Least 30 Miles Or More From The Place Of Employment. For Assistance With Booking Within 14 Days, See Your Department Mgr.
+Rivermark Credit Union
+Membership Is Available For All Employees.
+Exchange Letter
+Available Year Round For Eligible Employees. Employees Must Be Employed At Mt. Hood Oregon Resort For At Least 2 Pay Periods, Received 2 Pay Checks And Of Good Behavior Standing. Exchange Letters Entitle The Eligible Employee To Have A Free Recreational Pass To Timberline And Ski Bowl. This Is A First-Come, First-Served Basis As Only 4 Letters Per Day Are Available Per Resort. To Request Exchange Letter, You May Call Or Personally Request From The General Manager'S Office Or Human Resources Office. Leaving Voicemail Is Not A Guarantee Of Securing Exchange Letters. Exchange Letter Must Be Of Original Signature.
+GENERAL RULES
+Personal Packages
+Mt. Hood Oregon Resort Does Not Accept Any Former Or Current Employees' Personal Packages At Any Time. Any Personal Packages Received Will Be Returned To The Sender.
+Lost And Found Policy
+When Any Item Is Found On Resort Property, It Should Immediately Turn Into The Housekeeping Department Lost & Found. In The Event The Housekeeping Office Is Closed, The Item Should Be Turned Over To The Front Desk To Be Put In A Safety Deposit Box. The Front Desk Will Notify Housekeeping Through Voicemail Or E-Mail And Turn The Item(S) Into Housekeeping During Lost & Found Hours From 8Am To 4Pm - 7 Days A Week. Items Are Kept For 90 Days. If Left Unclaimed By The Owner, The Item Will Be Released To The Finder. Items Over $100 In Value Will Be Released Upon Approval By The Department Manager And Must Be Reported To The Security.
+All Inquiries Regarding Lost And Found Items Should Be Directed To The Housekeeping. In The Event Housekeeping Is Unavailable, Please Have The Guest Call Back During Regular Operation Hours Or Take A Message & Housekeeping Will Return Their Call.
+Guest Relations And Courtesy Policy
+We Are A Service Business And All Of Us Must Remember That The Guest Always Comes First. A Guest Is The Most Important Person Who Ever Enters Our Resort And Is Truly A Vip, Worthy Of The Most "Brilliant Service" We Can Give. Our Guests Buy Our Food, Function Space, Rooms, And Other Services. The Guest Furnishes The Money For Our Operating Expenses Including Our Wages. The Guests Wish Is Our Command. It Is The Guest That Pays All Our Wages. Remember, While The Guest May Not Always Be Right, The Guest Is Never Wrong. Guests Are To Be Treated Courteously And Always Given Proper Attention. The Guest Is A Flesh And Blood Human Being With Feelings And Emotions Like Our Own With Likes And Dislikes, Biases, And Prejudices.
+Guest And Resort **Confidentiality**
+Any Inquiries From The Media Or Public Or Social Media Regarding The Resort Or A Resort Guest Are To Be Directed To And Answered Only By Management. Information About The Resort, Its Employees, Guests, Suppliers And Vendors Are To Be Kept Confidential And Divulged Only To Authorized Personnel Within The Resort With A Need To Receive And Authorized To Receive Such Information.
+Resort Property
+Lockers, Desks, Vehicles, Computers And Any Resort Property Must Be Maintained According To Mt. Hood Oregon Resort Rules And Regulations. They Must Be Kept Clean And Are To Be Used Only For Work-Related Purposes And With Supervisor'S Consent. Mt. Hood Oregon Resort Reserves The Right To Inspect All Company Property To Ensure Compliance With Its Rules And Regulations, Without Notice To The Employee And/Or In The Employee'S Absence.
+Employee Property
+Employees Are Urged Not To Bring Valuables To Work. If Necessary To Do So, All Valuables Should Be Kept In A Secure Location. Mt. Hood Oregon Resort Assumes No Responsibility For The Loss, Theft Or Damage Of Employee Personal Property. If A Manager Has A Reasonable Suspicion That An Employee Is In Unauthorized Possession Of Resort Property, Guests Property Or Another Employee'S Property, The Manager May Subject The Employee To A Search Of His Or Her Clothing And/Or Possessions And Be Notified By Manager Or Law Enforcement If Necessary.
+Visitors
+Friends And Relatives Should Be Asked Not To Visit Employees During Working Hours. Unattended Children Are Not Allowed In The Facility Or On The Premises At Any Time. For Safety And Insurance Reasons, Friends, Relatives Or Any Employee Who Is Off Duty Are Not Permitted In Areas Restricted To Employees Only, Unless Authorized By Management.
+Security
+Security Of Mt. Hood Oregon Resort Facilities, As Well As The Welfare Of Our Employees And Guests Requires That Every Individual Be Constantly Alert To Security Risks. Please Immediately Notify Your Supervisor Of The Following:
+1. Any suspicious person(s) acting in a suspicious manner, in or around the facility.
+2. 2. Loss of keys, security passes or identification badges.
+Solicitation And/Or Distribution Of Literature
+Solicitation By Any Employee For Any Cause, Or Distribution Of Literature Of Any Kind By Any Employee, During Work Time, Is Not Permitted, Except In Certain Situations Which Will Be Pre-Approved By The Gm Or Human Resources. Neither May An Employee Who Is Not On Working Time Solicit To An Employee Who Is On Working Time For Any Cause Or Distribute Literature Of Any Kind To That Person.
+Employee Parking
+During Busy Season, We Ask That Employees Utilize Parking Areas That Will Not Affect Guest Usage. Employees On The West Side Of The Property Are To Park In The Gravel Lot Immediately North Of The Main Building. Employees Parking On The East Side Must Utilize Parking In The Outer Lot Across From The Administrative Offices (On The South Side Of The Divider As Much As Possible). Greens Keeping And Maintenance Park In Currently Used Areas. Golf Shop Employees Are To Park In The Maintenance Area At All Times. If These Areas Are Full, Park In An Area That Will Not Inconvenience The Guest. If Any Employee Feels Unsafe Going To Their Vehicle, They May Call Front Desk Or Night Guest Services For An Escort.
+Communications
+Improper Use Of Resort Communication Services Will Subject The Employee To Disciplinary Action, Including Possible Termination.
+Cellphone And Pda Communication
+This Policy Outlines The Use Of Personal Cellphones And Personal Digital Assistants (Pdas) At Work And The Safe Use Of Resort Cellphones Or Pdas By Employees While Driving.
+Company-Provided Cellphones And Pdas
+When A Job Or Business Needs Demand Immediate Access To An Employee, The Company May Issue A Business Radio, Cellphone Or Pda To An Employee For Work-Related Communications.
+Employees In Possession Of Company Equipment Such As Radios, Cellphones Or Pdas Are Expected To Protect The Equipment From Loss, Damage Or Theft. Upon Resignation Or Termination Of Employment, Or At Any Time On Request, The Employee May Be Asked To Produce The Phone For Return Or Inspection.
+Safety Issues For Cellphone And Pda Use
+All Employees Are Expected To Follow Applicable Local, State And Federal Laws And Regulations Regarding The Use Of Cellphones And Pdas At All Times. Employees Whose Job Responsibilities Include Regular Or Occasional Driving And Who Are Issued A Radio, Cellphone Or Pda For Business Use Are Expected To Refrain From Using Their Phone Or Pda While Driving; Use Of A Cellphone Or Pda While Driving Is Not Required By The Resort. Safety Must Come Before All Other Concerns.
+Video Or Audio Recording Devices
+The Use Of Camera Phones, Pdas, Or Other Audio Or Video Recording-Capable Devices Within The Company May Constitute An Invasion Of Employees' Personal Privacy And May Breach The **Confidentiality** Of Mt. Hood Oregon Resort Trade Secrets Or Other Protected Information.
+Therefore, The Use Of Camera Or Other Video Recording-Capable Devices On Company Premises Is Prohibited Without The Express Prior Permission Of Senior Management And Of The Person(S) Present At The Time. This Prohibition Is Specifically Applicable To Restrooms And Locker Rooms And Includes Premises Involved In Quality Control, Sales And Engineering.
+Special Responsibilities For Managerial Staff
+As With Any Policy, Management Staff A Re Expected To Serve As Role Models For Proper Compliance With The Provisions Above And Are Encouraged To Regularly Remind Employees Of Their Responsibilities In Complying With This Policy.
+Consequences For Violators
+Employees Violating This Policy Will Be Subject To Discipline, Up To And Including Termination Of Employment.
+Use Of Computers, E-Mail And Instant Messaging
+Computers, Computer Files, The E-Mail System, And Software Furnished To Employees Are Property Of The Resort And Intended For Business Use Only. To Ensure Compliance With This Policy, Computer And E-Mail Usage May Be Monitored And/Or Restricted By The Resort. Employees Should Have No Expectation Of Privacy.
+Use Restricted To Approved E-Mail Accounts
+When Conducting Business With Co-Workers, Customers Or Affiliates Of The Resort, Employees May Not, Under Any Circumstances, Use An E-Mail Account Which Is Unaffiliated With The Resort. For Example, When Communicating With A Customer, The Communication Should Always Be From A Resort Email Account.
+Prohibited E-Mail Accounts Include, But Are Not Limited To, G-Mail, Hotmail, Yahoo, And Any Other E-Mail Accounts To Which The Resort Does Not Subscribe And Pay For Its Employees To Use. In Order To Communicate Satisfaction Surveys Or Other The Resort Information, Emails May Be Sent To Individuals' Personal Email Addresses If They Do Not Have Resort Email.
+Content
+Mt. Hood Oregon Resort Strives To Maintain A Workplace Free Of **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment. And Sensitive To The Diversity Of Its Employees. Therefore, The Resort Prohibits The Use Of Computers And The E-Mail System In Ways That Are Disruptive, Offensive To Others, Or Harmful To Morale.
+For Example, The Display Or Transmission Of Sexually Explicit Images, Messages, And Cartoons Is Not Allowed. Other Such Misuse Includes, But Is Not Limited To, Ethnic Slurs, Racial Comments, Off-Color Jokes, Or Anything That May Be Construed As **Harassment**
+
+Harassment in any form is strictly prohibited. Immediate action will be taken upon any report or awareness of harassment. Or Showing Disrespect For Others.
+Software And Licenses
+The Resort Purchases And Licenses The Use Of Various Computer Software For Business Purposes And Does Not Own The Copyright To This Software Or Its Related Documentation. Unless Authorized By The Software Developer, The Resort Does Not Have The Right To Reproduce Such Software For Use On More Computers Than We Own Licenses.
+Employees May Only Use Software On Local Area Networks Or On Multiple Machines According To An Applicable Software License Agreement. The Resort Prohibits The Illegal Duplication Of Software And Its Related Documentation. Employees Should Notify Their Immediate Supervisor, Or Any Principal Of The Resort Upon Learning Of Violations Of This Policy. Employees Who Violate This Policy Will Be Subject To Disciplinary Action, Up To And Including Termination Of Employment.
+Internet Usage
+Internet Access To Global Electronic Information Resources On The World Wide Web Is Provided By The Resort To Assist Employees In Obtaining Work-Related Data And Technology. The Following Guidelines Have Been Established To Help Ensure Responsible And Productive Internet Usage. While Internet Usage Is Intended For Job-Related Activities, Incidental And Occasional Brief Personal Use Is Permitted Within Reasonable Limits. Personal Use That Becomes Unreasonable, Interferes With The Employee'S Job Duties Or Violates This Policy Will Result In Discipline, Up To And Including Termination.
+All Internet Data That Is Composed, Transmitted, Or Received Via Our A이Nputer C이Nmunicati이Is Systems Is Part Of The Official Records Of The Resort And, As Such, Is Subject To Disclosure To Law Enforcement Or Other Third Parties. Consequently, Employees Should Always Ensure That The Business Information Contained In Internet E-Mail Messages And Other Transmissions Is Accurate, Appropriate, Ethical, And Lawful.
+The Equipment, Services, And Technology Provided To Access The Internet Remain At All Times The Property Of The Resort. As Such, The Resort Reserves The Right To Monitor And/Or Restrict Internet Traffic, And Retrieve And Read Any Data Composed, Sent, Or Received Through Our Online Connections And Stored In Our Computer Systems. Employees Should Have No Expectation Of Privacy In Using Any Aspect Of The Company'S Technology Or Telecommunications Infrastructure, Whether Such Use Is During Workhours And/Or On The Company'S Premises.
+Data That Is Composed, Transmitted, Accessed, Or Received Via The Internet Must Not Contain Content That Could Be Considered Discriminatory, Offensive, Obscene, Threatening, Harassing, Intimidating, Or Disruptive To Any Employee Or Other Person. Examples Of Unacceptable Content May Include, But Are Not Limited To, Sexual Comments Or Images, Racial Slurs, Gender-Specific Comments, Or Any Other Admments Or Images That Could Reasonably Offend Someone On The Basis Of Race, Age, Sex, Religious Or Political Beliefs, National Origin, Disability, Sexual Orientation, Or Any Other Characteristic Protected By Law.
+As A General Rule, If An Employee Did Not Create Material, Does Not Own The Rights To It, Or Has Not Obtained Authorization For Its Use, It Should Not Be Put On The Internet. Employees Are Also Responsible For Ensuring That The Person Sending Any Material Over The Internet Has Appropriate Distribution Rights. Internet Users Should Take The Necessary Anti-Virus Precautions Before Downloading Or Copying Any File From The Internet. All Downloaded Files Must Be Checked For Viruses And All Compressed Files Must Be Checked Before And After Decompression.
+Abuse Of The Internet Access Provided By The Resort In Violation Of Law Or The Resort Policies Will Result In Disciplinary Action, Up To And Including Termination Of Employment. Employees May Also Be Held Personally Liable For Any Violations Of This Policy.
+The Following Behaviors Are Examples Of Previously Stated Or Additional Actions And Activities That Are Prohibited And Can Result In Disciplinary Action (This List Is Not All Inclusive):
+•	Sending or posting discriminatory, harassing, or threatening messages or images
+•	Using the organization's time and resources for personal gain
+•	Stealing, using, or disclosing someone else's password or code without authorization
+•	Copying, pirating, or downloading software and electronic files without permission
+•	Sending or posting confidential material, trade secrets, or proprietary information outside of the organization
+•	Violating copyright law
+•	Failing to observe licensing agreements
+•	Engaging in unauthorized transactions that may incur a cost to the organization or initiate unwanted Internet services and transmissions
+•	Sending or posting messages or material that could damage the organization's or any of the organization's clients' image or reputation
+•	Participating in the viewing or exchange of pornography or obscene materials
+•	Sending or posting messages that defame or slander other individuals
+•	Attempting to break into the computer system of another organization or individual
+•	Refusing to cooperate with a security investigation
+•	Sending or posting chain letters, solicitations, or advertisements not related to business purposes or activities
+•	Using the Internet for political causes or activities, religious activities, or any sort of gambling
+•	Jeopardizing the security of the organization's electronic communications systems
+•	Sending or posting messages that disparage another organization's products or services
+•	Passing off personal views as representing those of the organization
+•	Sending anonymous e-mail messages
+•	Engaging in any other illegal activities
+Housekeeping
+All Employees Are Expected To Keep Their Work Areas Clean And Organized. Common Areas Such As Lunchrooms, Locker Rooms And Restrooms Should Be Kept Clean By Those Using Them. Please Clean Up After Meals. Dispose Of Trash Properly.
+Human Trafficking Policy
+Mt. Hood Oregon Resort Is Committed To Upholding The Highest Ethical Standards And Has A Zero-Tolerance Policy Regarding Human Trafficking. All Employees Are Required To Report Any Suspected Instances Of Human Trafficking To Their Supervisor Or The Human Resources Department Immediately. Engaging In Or Facilitating Human Trafficking And Or Failure To Report Suspected Trafficking May Result In Disciplinary Action Up To Including Termination Of Employment. Assurance Of **Confidentiality** For Reporters.
+WORKPLACE AND EMPLOYEE SAFETY POLICY
+Fire Safety Policy
+Mt. Hood Oregon Resort Is Committed To Fire Safety Primarily To Protect The Lives Of Our Employees And Guests, Minimize Property Damage In Case Of A Fire, Maintain Business Continuity By Preventing Disruptions, Comply With Legal Regulations, Manage Insurance Costs, And Uphold A Positive Reputation By Demonstrating A Commitment To Safety.
+All Employees Must Actively Participate In Fire Prevention By Following Established Procedures, Including Immediately Reporting Any Potential Fire Hazards, Properly Using Fire Extinguishing Equipment When Trained, Knowing And Utilizing Designated Evacuation Routes, And Attending Required Fire Safety Training To Ensure The Safety Of Themselves And Others In The Event Of A Fire Emergency. In Case Of A Fire Alarm, Evacuate The Building Promptly Using The Nearest Exit And Proceed To The Designated Assembly Point, Following Instructions From Designated Fire Marshals
+Accident Prevention
+Accident Prevention Is A Vital Part Of Your Job. It Is Important For Everyone To Be Aware Of, And To Participate In All Safety Related Procedures. They Are Designed To Provide Non-Hazardous Working Conditions For Everyone So You Can Feel Safe At Work. Please Familiarize Yourself With The Safety Procedures That Must Be Followed By Every Employee Each Day They Come To Work. Employees Engaging In Unsafe Work Practices May Be Subject To Discipline, Up To And Including Termination. Your Safety Performance Is An Important Part Of Your Responsibilities And Your Performance Appraisal.
+Accident Reporting
+If You Are Injured On The Job In Any Way, You Must Report The Injury Immediately To Your Supervisor So Proper Care Can Be Offered. If Medical Treatment Is Required, Your Supervisor Should Coordinate Your Care. Mt. Hood Oregon Resort May Be Responsible For Paying For The Treatment. If You Do Not Report The Injury And Seek Medical Attention On Your Own, The Resort May Not Pay For The Treatment.
+Remember, You Must Report All On The Job Injuries, No Matter How Small, To Your Supervisor Or Manager Immediately. Failure To Do This May Affect Your Right To Have The Injury Treated And Avail Possible Workers Compensation Benefit. If No Injury Has Occurred Or Professional Medical Assistance Is Not Required, You Must Fill Out With Your Supervisor An "Accident/Incident Report" By The End Of Your Work Shift. When An Employee Has An On-The-Job Accident, Injury, Occupational Illness Or Serious Near Miss, It Must Be Reported Immediately To A Manager Or Supervisor. Failure To Do So Could Result In Your Claim Being Delayed Or Denied.
+Incident Reports
+It Is Required That Any Employee Who Witnesses Or Has Knowledge Of Any Incident Involving A Guest Or Employee Complete An Incident Report Form (Include Photos If Applicable) Which Varies With The Type Of Incident. This Includes Accident With Vehicles, Injury To A Person, Theft Of Property, Etc..
+Your Supervisor Should Have A Copy Of Each Form And Which Type Of Incident Is Subject To Which Form. If You Have Any Questions, Check With The Front Desk Or Human Resources. Always Include As Much Information As Possible,
+i.	e. "who", "what", "when", "where", "how", and "why".
+Reports Need To Be Done As Soon As Possible After An Incident Occurs. Failure To Do So Will Result In Disciplinary Action, Up To And Including Termination. Verbal Notification Needs To Be Made To Night Guest Services, The General Manager And/Or A Human Resource Representative In Serious Situations Involving Guests Or Employees.
+Employees Must Contact The Front Desk In An Emergency Situation As They Are The "Command Center". Refer To Your Departmental Emergency Procedures, Which Is Separate From This Handbook.
+Conclusion
+Many Of Mt. Hood Oregon Resort Policies And Employee Benefits Have Been Covered Only Briefly In This Handbook. If You Have Any Questions Or Want More Information, Contact Your Manager/Supervisor Or Human Resources.
+**Confidentiality** Agreement
+Employee Acknowledges And Understands That During The Time Of Employment, The Employee Will Have Access To Confidential And Proprietary Information Relating To Stanford Oregon Hotel Llc Business. This Confidential And Proprietary Information Includes But Is Not Limited To: (A)Financial Data, Compensation Data, Marketing Plans, Pricing Information And Strategies Business Plan; (B)Personnel Information Regarding Officers, Managers, Employeesand Customers; (C)Pricing And Technical Data And Specifications From Vendors, Suppliers, Customers And Stanford Oregon Hotel Llc; (D)Customer Lists And Contact Information.
+1. Employee will hold the confidential and proprietary information received from Stanford Oregon Hotel LLC in strict confidence and shall exercise a reasonable degree of care to Prevent disclosure to others.
+2. Employee will not disclose or divulge either directly or indirectly the confidential and proprietary information to others unless first authorized to do so in writing by Stanford Oregon Hotel LLC.
+3. Employee will not reproduce the confidential and proprietary information nor use this information commercially or for any purpose other than the performance of his/her duties for Stanford Oregon Hotel LLC.
+4. Employee will, upon the request or upon termination of his/her relationship with Stanford Oregon Hotel LLC, return all confidential and proprietary information belonging to Stanford Oregon Hotel LLC. Employee agrees that he/she will not, during the term of employment, or at any time after termination of employment, use, disclose or publish any confidential or proprietary information of Stanford Oregon Hotel LLC without the prior written consent of Stanford Oregon Hotel LLC except and required in the performance of employees job duties while employed by Stanford Oregon Hotel LLC.
+Employee Represents And Warrants That They Are Not Under Any Preexisting Obligations Inconsistent With The Provisions Of This Agreement.
+Name
+Date
+ACKNOWLEDGMENT AND AGREEMENT
+This Manual Is Only A General Guide To Mt. Hood Oregon Resorts Current Employment Policies And To Some Of Your Benefits And Responsibilities As An Employee. It Is Informational Only And Is Not Intended To Be And Should Not Be Construed As A Contract. From Time To Time, Mt. Hood Oregon Resort Reviews Its Policies, Procedures, And Benefits And Makes Revisions Based On The Need For Or Desirability Of Changes. Thus, Any Policy, Procedure, Or Benefit Outlined In This Manual May Be Modified, Decreased, Or Increased At Any Time. The Handbook Cannot Address Every Situation That Could Possibly Arise In The Workplace In Order To Give The Employer Flexibility In Addressing Unique Situations, The Resort Recognizes Its Responsibility To Inform You Of Any Changes And Will Do So As Soon As We Can. In Addition, Mt. Hood Oregon Resort Remains Free To Decide In All Cases Whether To And How To Apply These Policies To Any Particular Set Of Circumstances.
+This Is To Acknowledge That I Have Received A Copy Of Mt. Hood Oregon Resort'S Employee Handbook And Understand That It Sets Forth The Terms And Conditions Of My Employment As Well As The Duties, Responsibilities And Obligations Of Employment With Mt. Hood Oregon Resort. I Understand And Agree That It Is My Responsibility To Read And Familiarize Myself With The Provisions Of The Employee Handbook And To Abide By The Rules, Policies And Standards Set Forth In The Employee Handbook.
+I also acknowledge that my employment with Mt. Hood Oregon Resort is "at will"; that it is not for a specified period of time and can be terminated at any time for any reason, with or without cause or notice, by me or by Mt. Hood Oregon Resort. I acknowledge that no statements or representations regarding my employment can alter the foregoing. I further understand that no manager or representative of the resort, other than the President has any authority to enter into any agreement guaranteeing employment for any specified period of time, or can alter the at- will nature of my employment. I also understand that any such agreement, if made, shall not be enforceable unless it is in the form of a formal written agreement signed by both me and the General Manager.
+I have read, understand and support Mt. Hood Oregon Resort's policies prohibiting **harassment** and discrimination. I recognize that all employees, supervisors and managers are prohibited from being involved in discriminatory, harassing or retaliatory conduct. I acknowledge that Mt. Hood Oregon Resort has a specific procedure for reporting perceived **harassment** and discrimination. If I witness or am a victim of misconduct, I will report such misconduct to a supervisor, Human Resources or to the Resort Manager.
+Employee Signature
+Employee Name [Printed]
