@@ -108,7 +108,7 @@ export default async function handler(req, res) {
           .slice(0, 3);
 
         relevantContext = topMatches
-          .map(match => `관련 정보: ${match.text}`)
+          .map(match => `관련 정보: ${match.content}`)
           .join('\n\n');
       }
     } catch (embeddingError) {
