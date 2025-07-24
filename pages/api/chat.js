@@ -85,15 +85,48 @@ export default async function handler(req, res) {
 
     // 언어 감지
     const detectedLanguage = detectUserLanguage(lastUserMessage.content);
+    console.log('Detected language:', detectedLanguage);
     
-    // 벡터 검색을 위한 임베딩 생성
+    // 영어가 아닌 경우 쿼리를 영어로 번역
+    let searchQuery = lastUserMessage.content;
+    let translatedToEnglish = false;
+    
+    if (detectedLanguage !== 'en') {
+      try {
+        // GPT를 사용하여 쿼리를 영어로 번역
+        const translationResponse = await openai.chat.completions.create({
+          model: "gpt-4o-mini", // 빠르고 저렴한 모델 사용
+          messages: [
+            {
+              role: "system",
+              content: "Translate the following text to English. Provide only the translation without any explanation."
+            },
+            {
+              role: "user",
+              content: lastUserMessage.content
+            }
+          ],
+          temperature: 0.3,
+          max_tokens: 100
+        });
+        
+        searchQuery = translationResponse.choices[0].message.content.trim();
+        translatedToEnglish = true;
+        console.log('Translated query to English:', searchQuery);
+      } catch (error) {
+        console.error('Translation error:', error);
+        // 번역 실패 시 원본 쿼리 사용
+      }
+    }
+    
+    // 벡터 검색을 위한 임베딩 생성 (영어 쿼리 사용)
     let relevantContext = '';
-    const SIMILARITY_THRESHOLD = 0.5; // 0.75에서 0.5로 낮춤
+    const SIMILARITY_THRESHOLD = 0.4; // 0.5에서 0.4로 더 낮춤
     
     try {
       const embedding = await openai.embeddings.create({
         model: "text-embedding-ada-002",
-        input: lastUserMessage.content,
+        input: searchQuery // 번역된 영어 쿼리 사용
       });
 
       // 벡터 로드 및 유사도 검색
@@ -133,10 +166,11 @@ export default async function handler(req, res) {
         const relevantMatches = similarities
           .filter(item => item.similarity >= SIMILARITY_THRESHOLD)
           .sort((a, b) => b.similarity - a.similarity)
-          .slice(0, 5); // 상위 5개로 증가
+          .slice(0, 8); // 상위 8개로 증가 (더 많은 컨텍스트 포함)
 
         // 디버깅 로그
-        console.log('User query:', lastUserMessage.content);
+        console.log('User query (original):', lastUserMessage.content);
+        console.log('Search query (English):', searchQuery);
         console.log('Relevant matches found:', relevantMatches.length);
         relevantMatches.forEach((match, index) => {
           console.log(`Match ${index + 1} (similarity: ${match.similarity.toFixed(3)}):`, 
@@ -154,80 +188,90 @@ export default async function handler(req, res) {
       // 임베딩 실패시에도 계속 진행
     }
 
-    // 언어별 시스템 프롬프트
-    const systemPrompts = {
-      ko: `당신은 Mt. Hood Oregon Resort의 공식 HR 어시스턴트입니다.
+    // 언어별 시스템 프롬프트 - 간소화 및 통일
+    const systemPrompt = `You are the official HR Assistant for Mt. Hood Oregon Resort.
 
-핵심 지침:
-- 오직 직원 핸드북(Employee Handbook)과 제공된 회사 문서의 정보만을 기반으로 답변합니다
-- 핸드북에 없는 정보(일반 정보, 지역 정보, 개인적 조언 등)는 제공하지 않습니다
-- 핸드북 외 질문을 받으면 "죄송하지만, 저는 직원 핸드북에 있는 정보만 제공할 수 있습니다. 해당 문의사항은 관련 부서에 직접 문의해 주세요"라고 안내합니다
+IMPORTANT: 
+- Respond in ${detectedLanguage === 'ko' ? 'Korean' : detectedLanguage === 'zh' ? 'Chinese' : detectedLanguage === 'ja' ? 'Japanese' : detectedLanguage === 'es' ? 'Spanish' : detectedLanguage === 'fr' ? 'French' : detectedLanguage === 'de' ? 'German' : 'English'}.
+- Provide information ONLY from the Employee Handbook provided below.
+- If information is not in the handbook, say you cannot provide that information and suggest contacting HR.
+- Be friendly and professional.
+- Use the exact information from the handbook but translate it naturally into the user's language.
 
-답변 방식:
-- HR 정책/규정 관련: 명확하고 직접적인 톤으로 정확성 우선
-- 직원 혜택/복지 설명: 친근하면서도 전문적인 톤
-- 복잡한 내용은 쉽게 풀어서 설명
-- 이모지는 최소한으로 사용 (주요 항목 구분 시에만)
+RESPONSE FORMAT INSTRUCTIONS:
+1. Use clear formatting with sections, bullets, and emojis for better readability
+2. For policy questions, organize your response as:
+   - ✅ What is ALLOWED (with specific details)
+   - ❌ RESTRICTIONS & RULES (list ALL relevant restrictions)
+   - ⚠️ Important notes or consequences
+3. Be COMPREHENSIVE - include ALL relevant rules and restrictions, not just the main points
+4. Use bold (**text**) for emphasis on key points
+5. Structure information logically with clear categories
 
-중요 안내:
-- 추가 문의나 명확한 설명이 필요한 경우 "자세한 사항은 인사부(Human Resources)에 문의해 주세요"라고 안내
-- 핸드북에 명시된 담당자 정보가 있으면 구체적으로 안내 (예: "Ann Angnos에게 문의")
-- 항상 핸드북의 정확한 내용을 인용하여 답변
+SPECIAL INSTRUCTIONS:
+- If asked about "employee benefits" or "직원 혜택" or similar general benefit questions, provide a COMPREHENSIVE overview of ALL benefits including:
+  * Holiday pay
+  * Vacation leave
+  * Sick leave
+  * Insurance benefits
+  * Restaurant/lounge discounts
+  * Golf/croquet privileges
+  * Gift shop discounts
+  * Exchange letters for ski resorts
+  * FMLA and PLO leave options
+- Don't just focus on one type of benefit unless specifically asked.
+- For questions about employee conduct (drinking, dress code, etc.), include ALL relevant rules and restrictions.
 
-주요 직원 혜택 요약:
-1. 휴일 근무 수당: 지정 공휴일 근무 시 시급의 1.5배
-2. 휴가: 근속연수별 (1-2년 5일, 3-5년 7일, 6-10년 10일, 11년+ 15일)
-3. 병가: 30시간 근무당 1시간 적립, 최대 40시간
-4. 보험: 의료/치과/시력/생명보험 (정규직, 90일 후)
-5. 레스토랑 할인: 근무중 50%, 근무외 25%
-6. 골프/크로켓: 주 1회 무료 (1명 동반 가능)
-7. 기프트샵: 25% 할인
-8. PLO: 최대 12주 유급휴가
-9. FMLA: 연간 최대 12주 무급휴가
+Key Guidelines:
+1. For policies: List ALL rules comprehensively
+2. For benefits: Be comprehensive and helpful
+3. Always include specific details (times, limits, locations)
+4. Format responses for easy scanning and understanding
+5. If unsure, direct to Human Resources contact`;
 
-아래 제공된 회사 정보에서만 답변을 찾아 제공하세요.`,
-
-      en: `You are the official HR Assistant for Mt. Hood Oregon Resort.
-
-Core Guidelines:
-- Provide information strictly from the Employee Handbook and provided company documents only
-- Do not provide any information beyond these sources (general inquiries, local information, personal advice, etc.)
-- If asked about unrelated matters, respond: "I'm sorry, but I can only provide information from the employee handbook. Please contact the appropriate department directly for that inquiry."
-
-Response Style:
-- HR policies/regulations: Clear and direct tone prioritizing accuracy
-- Employee benefits/privileges: Friendly yet professional tone
-- Explain complex matters in simple terms
-- Use emojis minimally (only for major section breaks)
-
-Important Guidance:
-- For further inquiries or clarifications, direct to "Please contact Human Resources for more details"
-- If specific contact is mentioned in handbook, provide it (e.g., "Please contact Ann Angnos")
-- Always quote accurate information from the handbook
-
-Provide answers only from the company information provided below.`,
-
-      // ... 다른 언어들
-    };
-
-    const systemPrompt = systemPrompts[detectedLanguage] || systemPrompts.en;
-
-    // 메시지 구성 개선
+    // 메시지 구성
     const messagesForGPT = [
       { role: "system", content: systemPrompt }
     ];
 
-        // 관련 컨텍스트가 있으면 시스템 메시지로 추가
+    // 관련 컨텍스트가 있으면 시스템 메시지로 추가
     if (relevantContext) {
+      // 질문 유형 감지
+      const isBenefitQuestion = searchQuery.toLowerCase().includes('benefit') || 
+                               searchQuery.toLowerCase().includes('혜택') ||
+                               searchQuery.toLowerCase().includes('privilege') ||
+                               searchQuery.toLowerCase().includes('특전');
+      
+      const isPolicyQuestion = searchQuery.toLowerCase().includes('drink') ||
+                              searchQuery.toLowerCase().includes('bar') ||
+                              searchQuery.toLowerCase().includes('lounge') ||
+                              searchQuery.toLowerCase().includes('alcohol') ||
+                              searchQuery.toLowerCase().includes('rule') ||
+                              searchQuery.toLowerCase().includes('policy');
+      
+      let contextInstructions = `Employee Handbook Information:\n\n${relevantContext}\n\n`;
+      
+      if (isBenefitQuestion) {
+        contextInstructions += `IMPORTANT: This is a general benefits question. Please provide a COMPREHENSIVE overview of ALL employee benefits mentioned in the handbook, not just the most relevant one. Include holidays, vacation, sick leave, insurance, discounts, privileges, etc. Organize the response with clear categories and translate naturally into the user's language.`;
+      } else if (isPolicyQuestion) {
+        contextInstructions += `IMPORTANT: This is a policy/rules question. Please provide a COMPLETE answer including:
+1. What is ALLOWED (with specifics like limits, locations, times)
+2. ALL restrictions and rules (don't miss any important details)
+3. Any consequences for violations
+Use clear formatting with ✅ for allowed actions and ❌ for restrictions. Be thorough and include ALL relevant rules from the handbook.`;
+      } else {
+        contextInstructions += `IMPORTANT: Translate this information naturally into the user's language when responding. Provide complete information with good formatting.`;
+      }
+      
       messagesForGPT.push({
         role: "system",
-        content: `참고할 직원 핸드북 내용:\n\n${relevantContext}\n\n위 내용을 바탕으로 정확하게 답변하되, 핸드북에 없는 내용은 추론하거나 만들어내지 마세요.`
+        content: contextInstructions
       });
     } else {
       // 관련 컨텍스트가 없는 경우
       messagesForGPT.push({
         role: "system",
-        content: `주의: 사용자의 질문과 관련된 내용을 핸드북에서 찾을 수 없습니다. 핸드북에 없는 정보는 제공할 수 없음을 정중히 안내하고, 해당 부서에 직접 문의하도록 안내하세요.`
+        content: `Note: No relevant information found in the handbook for this query. Politely inform the user in their language that this information is not available in the handbook and suggest contacting HR directly.`
       });
     }
 
