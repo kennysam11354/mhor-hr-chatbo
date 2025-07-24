@@ -88,6 +88,8 @@ export default async function handler(req, res) {
     
     // 벡터 검색을 위한 임베딩 생성
     let relevantContext = '';
+    const SIMILARITY_THRESHOLD = 0.5; // 0.75에서 0.5로 낮춤
+    
     try {
       const embedding = await openai.embeddings.create({
         model: "text-embedding-ada-002",
@@ -96,20 +98,56 @@ export default async function handler(req, res) {
 
       // 벡터 로드 및 유사도 검색
       const vectors = loadVectors();
+      
+      // 디버깅을 위한 로그
+      console.log('Total vectors loaded:', vectors.length);
+      console.log('Vector fields:', vectors.length > 0 ? Object.keys(vectors[0]) : 'No vectors');
+      
       if (vectors.length > 0) {
-        const similarities = vectors.map(item => ({
-          ...item,
-          similarity: cosineSimilarity(embedding.data[0].embedding, item.embedding)
-        }));
+        // 첫 번째 벡터의 구조 확인
+        console.log('First vector structure:', {
+          hasText: !!vectors[0].text,
+          hasContent: !!vectors[0].content,
+          hasEmbedding: !!vectors[0].embedding,
+          embeddingLength: vectors[0].embedding ? vectors[0].embedding.length : 0
+        });
+        
+        const similarities = vectors.map(item => {
+          // text 또는 content 필드 사용
+          const textContent = item.text || item.content || '';
+          const itemEmbedding = item.embedding || [];
+          
+          if (!itemEmbedding.length) {
+            console.log('Warning: Vector without embedding found');
+            return { ...item, similarity: 0 };
+          }
+          
+          return {
+            ...item,
+            text: textContent,  // 표준화된 필드명 사용
+            similarity: cosineSimilarity(embedding.data[0].embedding, itemEmbedding)
+          };
+        });
 
-        // 상위 3개 가장 유사한 문서 선택
-        const topMatches = similarities
+        // 유사도 임계값 이상인 것만 필터링
+        const relevantMatches = similarities
+          .filter(item => item.similarity >= SIMILARITY_THRESHOLD)
           .sort((a, b) => b.similarity - a.similarity)
-          .slice(0, 3);
+          .slice(0, 5); // 상위 5개로 증가
 
-        relevantContext = topMatches
-          .map(match => `관련 정보: ${match.text}`)
-          .join('\n\n');
+        // 디버깅 로그
+        console.log('User query:', lastUserMessage.content);
+        console.log('Relevant matches found:', relevantMatches.length);
+        relevantMatches.forEach((match, index) => {
+          console.log(`Match ${index + 1} (similarity: ${match.similarity.toFixed(3)}):`, 
+            match.text.substring(0, 100) + '...');
+        });
+
+        if (relevantMatches.length > 0) {
+          relevantContext = relevantMatches
+            .map(match => match.text)
+            .join('\n\n---\n\n');
+        }
       }
     } catch (embeddingError) {
       console.error('Embedding error:', embeddingError);
@@ -118,98 +156,88 @@ export default async function handler(req, res) {
 
     // 언어별 시스템 프롬프트
     const systemPrompts = {
-      ko: `당신은 MHOR(가상의 회사)의 전문적이고 친근한 HR 어시스턴트입니다. 
+      ko: `당신은 Mt. Hood Oregon Resort의 공식 HR 어시스턴트입니다.
 
-주요 역할:
-- 직원들의 HR 관련 질문에 정확하고 도움이 되는 답변 제공
-- 회사 정책, 복리후생, 급여, 휴가, 교육 등에 대한 안내
-- 따뜻하고 이해심 많은 톤으로 소통
-- 복잡한 정책을 쉽게 설명
+핵심 지침:
+- 오직 직원 핸드북(Employee Handbook)과 제공된 회사 문서의 정보만을 기반으로 답변합니다
+- 핸드북에 없는 정보(일반 정보, 지역 정보, 개인적 조언 등)는 제공하지 않습니다
+- 핸드북 외 질문을 받으면 "죄송하지만, 저는 직원 핸드북에 있는 정보만 제공할 수 있습니다. 해당 문의사항은 관련 부서에 직접 문의해 주세요"라고 안내합니다
 
-답변 스타일:
-- 친근하면서도 전문적인 톤 유지
-- 구체적이고 실행 가능한 조언 제공
-- 필요시 추가 문의를 위한 연락처나 절차 안내
-- 항상 직원의 입장에서 생각하고 도움이 되는 방향으로 답변
+답변 방식:
+- HR 정책/규정 관련: 명확하고 직접적인 톤으로 정확성 우선
+- 직원 혜택/복지 설명: 친근하면서도 전문적인 톤
+- 복잡한 내용은 쉽게 풀어서 설명
+- 이모지는 최소한으로 사용 (주요 항목 구분 시에만)
 
-${relevantContext ? `\n참고할 회사 정보:\n${relevantContext}` : ''}`,
+중요 안내:
+- 추가 문의나 명확한 설명이 필요한 경우 "자세한 사항은 인사부(Human Resources)에 문의해 주세요"라고 안내
+- 핸드북에 명시된 담당자 정보가 있으면 구체적으로 안내 (예: "Ann Angnos에게 문의")
+- 항상 핸드북의 정확한 내용을 인용하여 답변
 
-      en: `You are a professional and friendly HR Assistant for MHOR (a virtual company).
+주요 직원 혜택 요약:
+1. 휴일 근무 수당: 지정 공휴일 근무 시 시급의 1.5배
+2. 휴가: 근속연수별 (1-2년 5일, 3-5년 7일, 6-10년 10일, 11년+ 15일)
+3. 병가: 30시간 근무당 1시간 적립, 최대 40시간
+4. 보험: 의료/치과/시력/생명보험 (정규직, 90일 후)
+5. 레스토랑 할인: 근무중 50%, 근무외 25%
+6. 골프/크로켓: 주 1회 무료 (1명 동반 가능)
+7. 기프트샵: 25% 할인
+8. PLO: 최대 12주 유급휴가
+9. FMLA: 연간 최대 12주 무급휴가
 
-Key responsibilities:
-- Provide accurate and helpful answers to employee HR-related questions  
-- Guide on company policies, benefits, payroll, leave, training, etc.
-- Communicate with a warm and understanding tone
-- Explain complex policies in simple terms
+아래 제공된 회사 정보에서만 답변을 찾아 제공하세요.`,
 
-Response style:
-- Maintain a friendly yet professional tone
-- Provide specific and actionable advice
-- Guide to contacts or procedures for additional inquiries when needed
-- Always think from the employee's perspective and respond helpfully
+      en: `You are the official HR Assistant for Mt. Hood Oregon Resort.
 
-${relevantContext ? `\nCompany information for reference:\n${relevantContext}` : ''}`,
+Core Guidelines:
+- Provide information strictly from the Employee Handbook and provided company documents only
+- Do not provide any information beyond these sources (general inquiries, local information, personal advice, etc.)
+- If asked about unrelated matters, respond: "I'm sorry, but I can only provide information from the employee handbook. Please contact the appropriate department directly for that inquiry."
 
-      es: `Eres un Asistente de RRHH profesional y amigable para MHOR (una empresa virtual).
+Response Style:
+- HR policies/regulations: Clear and direct tone prioritizing accuracy
+- Employee benefits/privileges: Friendly yet professional tone
+- Explain complex matters in simple terms
+- Use emojis minimally (only for major section breaks)
 
-Responsabilidades principales:
-- Proporcionar respuestas precisas y útiles a preguntas relacionadas con RRHH
-- Orientar sobre políticas de empresa, beneficios, nómina, permisos, formación, etc.
-- Comunicarte con un tono cálido y comprensivo
-- Explicar políticas complejas en términos simples
+Important Guidance:
+- For further inquiries or clarifications, direct to "Please contact Human Resources for more details"
+- If specific contact is mentioned in handbook, provide it (e.g., "Please contact Ann Angnos")
+- Always quote accurate information from the handbook
 
-${relevantContext ? `\nInformación de la empresa para referencia:\n${relevantContext}` : ''}`,
+Provide answers only from the company information provided below.`,
 
-      fr: `Vous êtes un Assistant RH professionnel et convivial pour MHOR (une entreprise virtuelle).
-
-Responsabilités principales:
-- Fournir des réponses précises et utiles aux questions liées aux RH
-- Guider sur les politiques d'entreprise, avantages, paie, congés, formation, etc.
-- Communiquer avec un ton chaleureux et compréhensif
-- Expliquer les politiques complexes en termes simples
-
-${relevantContext ? `\nInformations de l'entreprise pour référence:\n${relevantContext}` : ''}`,
-
-      de: `Sie sind ein professioneller und freundlicher HR-Assistent für MHOR (ein virtuelles Unternehmen).
-
-Hauptverantwortlichkeiten:
-- Genaue und hilfreiche Antworten auf HR-bezogene Fragen der Mitarbeiter
-- Beratung zu Unternehmensrichtlinien, Vorteilen, Gehaltsabrechnung, Urlaub, Schulungen usw.
-- Kommunikation mit warmem und verständnisvollem Ton
-- Erklärung komplexer Richtlinien in einfachen Begriffen
-
-${relevantContext ? `\nUnternehmensinformationen zur Referenz:\n${relevantContext}` : ''}`,
-
-      ja: `あなたはMHOR（仮想企業）の専門的で親しみやすいHRアシスタントです。
-
-主な責任:
-- 従業員のHR関連質問に正確で有用な回答を提供
-- 会社の方針、福利厚生、給与、休暇、研修などについてガイダンス
-- 温かく理解のあるトーンでコミュニケーション
-- 複雑な方針を簡単な言葉で説明
-
-${relevantContext ? `\n参考となる会社情報:\n${relevantContext}` : ''}`,
-
-      zh: `您是MHOR（虚拟公司）专业友好的HR助理。
-
-主要职责:
-- 为员工的HR相关问题提供准确有用的答案
-- 指导公司政策、福利、薪资、休假、培训等
-- 以温暖理解的语调沟通
-- 用简单术语解释复杂政策
-
-${relevantContext ? `\n参考公司信息:\n${relevantContext}` : ''}`
+      // ... 다른 언어들
     };
 
     const systemPrompt = systemPrompts[detectedLanguage] || systemPrompts.en;
 
+    // 메시지 구성 개선
+    const messagesForGPT = [
+      { role: "system", content: systemPrompt }
+    ];
+
+        // 관련 컨텍스트가 있으면 시스템 메시지로 추가
+    if (relevantContext) {
+      messagesForGPT.push({
+        role: "system",
+        content: `참고할 직원 핸드북 내용:\n\n${relevantContext}\n\n위 내용을 바탕으로 정확하게 답변하되, 핸드북에 없는 내용은 추론하거나 만들어내지 마세요.`
+      });
+    } else {
+      // 관련 컨텍스트가 없는 경우
+      messagesForGPT.push({
+        role: "system",
+        content: `주의: 사용자의 질문과 관련된 내용을 핸드북에서 찾을 수 없습니다. 핸드북에 없는 정보는 제공할 수 없음을 정중히 안내하고, 해당 부서에 직접 문의하도록 안내하세요.`
+      });
+    }
+
+    // 기존 대화 히스토리 추가
+    messagesForGPT.push(...messages);
+
     const completion = await openai.chat.completions.create({
       model: "gpt-4o",
-      messages: [
-        { role: "system", content: systemPrompt },
-        ...messages
-      ],
-      temperature: 0.7,
+      messages: messagesForGPT,
+      temperature: 0.3,  // 더 일관되고 정확한 답변을 위해 낮춤
       max_tokens: 1000,
       top_p: 0.9,
     });
