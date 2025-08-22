@@ -81,7 +81,7 @@ export default function Home() {
       <div className="bg-white shadow-sm border-b px-4 py-3 sm:px-6">
         <div className="flex items-center justify-between">
           <h1 className="text-lg sm:text-2xl font-bold text-center flex-1 text-blue-700">
-            📘 MHOR HR ChatBot
+            📘 Employee Handbook
           </h1>
           {chat.length > 0 && (
             <button
@@ -128,7 +128,7 @@ export default function Home() {
             <div className="flex flex-col items-center justify-center h-full text-gray-500">
               <div className="text-4xl sm:text-6xl mb-4">💬</div>
               <p className="text-sm sm:text-base text-center px-4">
-                Welcome to MHOR HR Assistant!<br />
+                Welcome to Employee Handbook!<br />
                 Ask me anything about HR policies, benefits, or workplace support.
               </p>
             </div>
